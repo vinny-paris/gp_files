@@ -224,9 +224,14 @@ grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractiona
   #prepare the holding list and indexer
   final <- NULL
   i <- 1
+<<<<<<< HEAD
   final[[2]] <- data
   final[[3]] <- data
   final[[4]] <- data
+=======
+  final[[3]] <- data
+  
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
   #loop to cut down the data
   while(dim(data)[1] > num_of_groups) {
     #response <- eplusr(design_matrix)
@@ -243,11 +248,18 @@ grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractiona
   }
   {
     #collect first section
+<<<<<<< HEAD
     if(length(data) == 0){data <- c("No Sig. Effects")}
    
     final[[1]] <- data
    if(length(final) != 4){cat(parse(deparse(substitute(data))), "found the dirty whore!")}
    holding <- NULL
+=======
+    if(length(data) == 0){data <- "No Sig. Effects"}
+    
+    final[[1]] <- data
+    
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
     
     names(final) <- c("Proposal for Pure Grouping Orthogonal Experiment", "Proposal for Fractional Experiment", "Proposal for Large Class Fractional Experiment", "Proposal for Large Field Fractional Experiment") 
     
@@ -399,6 +411,7 @@ balloon <- function(x) {
 sm <- function(x){
   x[1:6, 1:6]
 }
+<<<<<<< HEAD
 
 
 
@@ -422,3 +435,5 @@ system(paste('./idf/dd -i ', base_idf, " -o ./idf/outputs -m ./idf/matrix.csv -p
 
 
 
+=======
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1

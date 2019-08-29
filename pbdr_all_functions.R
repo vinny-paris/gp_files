@@ -1,5 +1,45 @@
 
-
+dir_grouping <- function(dir = dir, num_of_groups = 12, 
+                         new_groups = 6, fractional_report = 25, 
+                         groups_interest = 6){
+  
+  files <- list.files(dir)
+  
+  
+  #split the files among the nodes
+  if (comm.size() > 1) {
+    files <- split(files , cut(seq_along(files),
+                               comm.size()))
+  } else  {
+    files <- list(files)
+  }
+  
+  result <- NULL
+  for (file in files[[comm.rank()+1]]) {
+    data <- fread(paste0(dir, "/", file))
+    out <- grouping_wrapper(data = data, num_of_groups = num_of_groups, 
+                            new_groups = new_groups, fractional_report = fractional_report, 
+                            groups_interest = groups_interest)
+    
+    
+    
+    pure <- data.frame(file ,out[[1]])
+    frac <- data.frame(file ,out[[2]])
+    class_frac <- data.frame(file ,out[[3]])
+    
+    
+  }
+  pures <- reduce(pure)
+  fracs <- reduce(frac)
+  class_fracs <- reduce(class_frac)
+  
+  final <- list(pures, fracs, class_fracs)
+  names(final) <- c("Full Factorial Experiment", "Fractional Factorial Experiment", "Class Fractional Factorial Experiment")
+  
+  #return the final product
+  return(final)
+}  
+  
 
 
 make_design <- function(data_summary){
@@ -48,7 +88,8 @@ make_groups <- function(file = NULL, group_size = 10, data = NULL){
   fil$p80 <-  (fil$Maximum - fil$Minimum)*.8 + fil$Minimum
   
   #combine and then break apart names
-  Nam <- data.frame(apply( fil[ , 2:4 ] , 1 , paste , collapse = "_" ))
+  dd <- data.frame(data$Class, data$Object, data$Field)
+  Nam <- data.frame(apply(dd , 1 , paste , collapse = "_" ))
   
   #For every possible combination of rows, find word correlation, 
   #feild/class/boject matriches and if the 80th percentiles are 
@@ -205,7 +246,9 @@ design_with_defaults <- function(data_summary, data, sig_groups = sig_groups){
   return(expment)
 }
 
-grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractional_report = 25, groups_interest = 6){
+
+
+grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractional_report = 25, groups_interest = 6, fields_interest = 6){
   
   #warning message
   if(num_of_groups <= new_groups){stop("The number of groups (num_of_groups)
@@ -232,22 +275,41 @@ grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractiona
     design_matrix <- g[[2]]
     if(.75*fractional_report <= dim(data)[1]){final[[2]] <- data}
     if(length(unique(data$Class)) >= groups_interest){final[[3]] <- data}
-
+    if(length(unique(data$Field)) >= fields_interest){final[[4]] <- data}
+    
     cat(paste("Current Iteration: ", i, "\n", sep = ""))
     i <- i + 1
   }
   {
     #collect first section
-    final[[1]] <- data
-
+    if(length(data) == 0){data <- "No Sig. Effects"}
     
-    names(final) <- c("Proposal for Pure Grouping Orthogonal Experiment", "Proposal for Fractional Experiment", "Proposal for Large Class Fractional Experiment") 
+    final[[1]] <- data
+    
+    
+    names(final) <- c("Proposal for Pure Grouping Orthogonal Experiment", "Proposal for Fractional Experiment", "Proposal for Large Class Fractional Experiment", "Proposal for Large Field Fractional Experiment") 
     
     cat("Grouping Experiment Completed")
+    
+    
+    
+    
+    #little summary at end
+    a <- dim(holding[[1]])[1]
+    b <- dim(holding[[2]])[1]
+    c <- dim(holding[[3]])[1]
+    d <- dim(holding[[4]])[1]
+    
+    dit <- rbind(a,b,c,d)
+    rownames(dit) <- c("Pure", "Large Fractional", "Large Class Fractional", "Large Field Fractional")
+    colnames(dit) <- c("Number of Sig. Effects to be Tested")
+    cat("\n")
+    print(dit)
+    
+    
     return(final)
   }
 }
-
 
 
 

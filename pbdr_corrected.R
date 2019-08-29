@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 source("./pbdr_all_corrected.R")
+=======
+source("/pbdr_all_corrected.R")
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
 
 dir <- "./pk"
 
@@ -20,12 +24,16 @@ groups_interest <- 6
 fields_interest <- 6
   
   files <- list.files(dir)
+<<<<<<< HEAD
 
 
   init()
 
 
  cat("\n \n \n", "read files", comm.rank(), "\n", "\n", "\n")   
+=======
+  
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
   
   #split the files among the nodes
   if (comm.size() > 1) {
@@ -42,12 +50,17 @@ fields_interest <- 6
                             new_groups = new_groups, fractional_report = fractional_report, 
                             groups_interest = groups_interest, fields_interest = fields_interest)
     
+<<<<<<< HEAD
  cat("\n \n \n", "grouping done", comm.rank(), "\n", "\n", "\n")   
+=======
+    
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
     
     pure <- data.frame(comm.rank(), file ,out[[1]])
     frac <- data.frame(file ,out[[2]])
     class_frac <- data.frame(file ,out[[3]])
     field_frac <- data.frame(file, out[[4]])
+<<<<<<< HEAD
     barrier()
   }
 
@@ -60,6 +73,13 @@ fields_interest <- 6
  cat("\n \n \n", comm.rank(), "\n", "\n", "\n")   
   pures <- gather(pure)
   cat(head(pures))
+=======
+    
+  }
+  if(comm.rank() == 0){
+  pures <- gather(pure)
+  
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
   fracs <- gather(frac)
   
   class_fracs <- gather(class_frac)
@@ -70,6 +90,7 @@ fields_interest <- 6
   
   #return the final product
 
+<<<<<<< HEAD
 cat(names(final))
 
 
@@ -85,3 +106,17 @@ write.csv(final[[3]], "pbdr_fractional_class_exp.csv")
 
 
 finalize()
+=======
+
+
+
+write.csv(holding[[1]], "pbdr_pure_orthogonal_exp.csv")
+
+write.csv(holding[[2]], "pbdr_fractional_var_exp.csv")
+
+write.csv(holding[[3]], "pbdr_fractional_class_exp.csv")
+
+write.csv(holding[[4]], "pbdr_fractional_field_exp.csv")
+
+}
+>>>>>>> 0701341ce5b84075c8c3e6dd62ff19567aaaccf1
