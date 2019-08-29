@@ -1,0 +1,1227 @@
+"","comm.rank..","file","Class","Object","Field","Default","Minimum","Maximum","Distribution","Type","Group","Constraint","p20","p80"
+"1",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",1,"",19.68,28.32
+"2",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 7",27,18.9,35.1,"uniform","float",2,"HA2 - CA2 < -1",22.14,31.86
+"3",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 10",27,18.9,35.1,"uniform","float",2,"HA3 - CA3 < -1",22.14,31.86
+"4",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 12",24,16.8,31.2,"uniform","float",3,"HA4 - CA4 < -1",19.68,28.32
+"5",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 14",27,18.9,35.1,"uniform","float",2,"HA5 - CA5 < -1",22.14,31.86
+"6",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",24,16.8,31.2,"uniform","float",3,"",19.68,28.32
+"7",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",27,18.9,35.1,"uniform","float",2,"HA7 - CA7 < -1",22.14,31.86
+"8",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 24",27,18.9,35.1,"uniform","float",2,"HA8 - CA8 < -1",22.14,31.86
+"9",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 26",24,16.8,31.2,"uniform","float",3,"HA9 - CA9 < -1",19.68,28.32
+"10",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 28",27,18.9,35.1,"uniform","float",2,"",22.14,31.86
+"11",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 32",24,16.8,31.2,"uniform","float",3,"HA11 - CA11 < -1",19.68,28.32
+"12",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 35",27,18.9,35.1,"uniform","float",2,"HA12 - CA12 < -1",22.14,31.86
+"13",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 38",27,18.9,35.1,"uniform","float",2,"HA13 - CA13 < -1",22.14,31.86
+"14",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 40",24,16.8,31.2,"uniform","float",3,"HA14 - CA14 < -1",19.68,28.32
+"15",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 42",27,18.9,35.1,"uniform","float",2,"HA15 - CA15 < -1",22.14,31.86
+"16",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",4,"HB1 - CB1 < -1",22.14,31.86
+"17",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 6",24,16.8,31.2,"uniform","float",5,"HB2 - CB2 < -1",19.68,28.32
+"18",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",4,"HB3 - CB3 < -1",22.14,31.86
+"19",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",4,"HB4 - CB4 < -1",22.14,31.86
+"20",0,"10_SecondarySchool.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"21",0,"10_SecondarySchool.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",7,"",0.82,1.18
+"22",0,"10_SecondarySchool.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"23",0,"10_SecondarySchool.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"24",0,"10_SecondarySchool.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",8,"",10.496,15.104
+"25",0,"10_SecondarySchool.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",9,"",0.123,0.177
+"26",0,"10_SecondarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",10,"",2.46,3.54
+"27",0,"10_SecondarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"28",0,"10_SecondarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"29",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",1,"",19.68,28.32
+"30",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 7",27,18.9,35.1,"uniform","float",2,"HA2 - CA2 < -1",22.14,31.86
+"31",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 10",27,18.9,35.1,"uniform","float",2,"HA3 - CA3 < -1",22.14,31.86
+"32",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 12",24,16.8,31.2,"uniform","float",3,"HA4 - CA4 < -1",19.68,28.32
+"33",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 14",27,18.9,35.1,"uniform","float",2,"HA5 - CA5 < -1",22.14,31.86
+"34",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",24,16.8,31.2,"uniform","float",3,"",19.68,28.32
+"35",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",27,18.9,35.1,"uniform","float",2,"HA7 - CA7 < -1",22.14,31.86
+"36",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 24",27,18.9,35.1,"uniform","float",2,"HA8 - CA8 < -1",22.14,31.86
+"37",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 26",24,16.8,31.2,"uniform","float",3,"HA9 - CA9 < -1",19.68,28.32
+"38",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 28",27,18.9,35.1,"uniform","float",2,"",22.14,31.86
+"39",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 32",24,16.8,31.2,"uniform","float",3,"HA11 - CA11 < -1",19.68,28.32
+"40",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 35",27,18.9,35.1,"uniform","float",2,"HA12 - CA12 < -1",22.14,31.86
+"41",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 38",27,18.9,35.1,"uniform","float",2,"HA13 - CA13 < -1",22.14,31.86
+"42",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 40",24,16.8,31.2,"uniform","float",3,"HA14 - CA14 < -1",19.68,28.32
+"43",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 42",27,18.9,35.1,"uniform","float",2,"HA15 - CA15 < -1",22.14,31.86
+"44",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",4,"HB1 - CB1 < -1",22.14,31.86
+"45",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 6",24,16.8,31.2,"uniform","float",5,"HB2 - CB2 < -1",19.68,28.32
+"46",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",4,"HB3 - CB3 < -1",22.14,31.86
+"47",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",4,"HB4 - CB4 < -1",22.14,31.86
+"48",0,"11_SmallHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"49",0,"11_SmallHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",7,"",0.82,1.18
+"50",0,"11_SmallHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"51",0,"11_SmallHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"52",0,"11_SmallHotel.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",8,"",10.496,15.104
+"53",0,"11_SmallHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",9,"",0.123,0.177
+"54",0,"11_SmallHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",10,"",2.46,3.54
+"55",0,"11_SmallHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"56",0,"11_SmallHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"57",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom101 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"58",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom102 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"59",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom103 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"60",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom104 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"61",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom105 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"62",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom201 PTAC DXCoil","Rated COP",3.77134409,2.639,4.901,"uniform","float",2,"",3.0914,4.4486
+"63",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom202_205 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"64",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom206_208 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"65",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom209_212 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"66",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom213 PTAC DXCoil","Rated COP",3.796034697,2.6572,4.9348,"uniform","float",4,"",3.11272,4.47928
+"67",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom214 PTAC DXCoil","Rated COP",3.803284597,2.6621,4.9439,"uniform","float",5,"",3.11846,4.48754
+"68",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom215_218 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"69",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom219 PTAC DXCoil","Rated COP",3.727186868,2.6089,4.8451,"uniform","float",6,"",3.05614,4.39786
+"70",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom220_223 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"71",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom224 PTAC DXCoil","Rated COP",3.803284597,2.6621,4.9439,"uniform","float",5,"",3.11846,4.48754
+"72",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom301 PTAC DXCoil","Rated COP",3.773530409,2.639,4.901,"uniform","float",2,"",3.0914,4.4486
+"73",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom302_305 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"74",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom306_308 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"75",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom309_312 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"76",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom313 PTAC DXCoil","Rated COP",3.781642497,2.6474,4.9166,"uniform","float",7,"",3.10124,4.46276
+"77",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom314 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"78",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom315_318 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"79",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom319 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"80",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom320_323 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"81",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom324 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"82",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom401 PTAC DXCoil","Rated COP",3.654092443,2.5578,4.7502,"uniform","float",8,"",2.99628,4.31172
+"83",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom402_405 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"84",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom406_408 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"85",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom409_412 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"86",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom413 PTAC DXCoil","Rated COP",3.658167518,2.5606,4.7554,"uniform","float",8,"",2.99956,4.31644
+"87",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom414 PTAC DXCoil","Rated COP",3.684713369,2.5788,4.7892,"uniform","float",8,"",3.02088,4.34712
+"88",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom415_418 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"89",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom419 PTAC DXCoil","Rated COP",3.718316964,2.6026,4.8334,"uniform","float",8,"",3.04876,4.38724
+"90",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom420_423 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"91",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom424 PTAC DXCoil","Rated COP",3.686350977,2.5788,4.7892,"uniform","float",8,"",3.02088,4.34712
+"92",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:10_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"93",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:11_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"94",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:12_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"95",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:1_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"96",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:2_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"97",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:3_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"98",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:4_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"99",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:5_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"100",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:6_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"101",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:7_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",9,"",2.87,4.13
+"102",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:8_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"103",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:9_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"104",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",10,"HA1 - CA1 < -1",19.68,28.32
+"105",0,"11_SmallHotel.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",21,14.7,27.3,"uniform","float",11,"",17.22,24.78
+"106",0,"11_SmallHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",12,"",0.82,1.18
+"107",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",1,"",19.68,28.32
+"108",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 7",27,18.9,35.1,"uniform","float",2,"HA2 - CA2 < -1",22.14,31.86
+"109",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 10",27,18.9,35.1,"uniform","float",2,"HA3 - CA3 < -1",22.14,31.86
+"110",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 12",24,16.8,31.2,"uniform","float",3,"HA4 - CA4 < -1",19.68,28.32
+"111",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 14",27,18.9,35.1,"uniform","float",2,"HA5 - CA5 < -1",22.14,31.86
+"112",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",24,16.8,31.2,"uniform","float",3,"",19.68,28.32
+"113",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",27,18.9,35.1,"uniform","float",2,"HA7 - CA7 < -1",22.14,31.86
+"114",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 24",27,18.9,35.1,"uniform","float",2,"HA8 - CA8 < -1",22.14,31.86
+"115",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 26",24,16.8,31.2,"uniform","float",3,"HA9 - CA9 < -1",19.68,28.32
+"116",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 28",27,18.9,35.1,"uniform","float",2,"",22.14,31.86
+"117",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 32",24,16.8,31.2,"uniform","float",3,"HA11 - CA11 < -1",19.68,28.32
+"118",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 35",27,18.9,35.1,"uniform","float",2,"HA12 - CA12 < -1",22.14,31.86
+"119",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 38",27,18.9,35.1,"uniform","float",2,"HA13 - CA13 < -1",22.14,31.86
+"120",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 40",24,16.8,31.2,"uniform","float",3,"HA14 - CA14 < -1",19.68,28.32
+"121",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 42",27,18.9,35.1,"uniform","float",2,"HA15 - CA15 < -1",22.14,31.86
+"122",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",4,"HB1 - CB1 < -1",22.14,31.86
+"123",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 6",24,16.8,31.2,"uniform","float",5,"HB2 - CB2 < -1",19.68,28.32
+"124",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",4,"HB3 - CB3 < -1",22.14,31.86
+"125",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",4,"HB4 - CB4 < -1",22.14,31.86
+"126",0,"12_SmallOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"127",0,"12_SmallOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",7,"",0.82,1.18
+"128",0,"12_SmallOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"129",0,"12_SmallOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"130",0,"12_SmallOffice.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",8,"",10.496,15.104
+"131",0,"12_SmallOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",9,"",0.123,0.177
+"132",0,"12_SmallOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",10,"",2.46,3.54
+"133",0,"12_SmallOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"134",0,"12_SmallOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"135",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom101 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"136",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom102 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"137",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom103 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"138",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom104 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"139",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom105 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"140",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom201 PTAC DXCoil","Rated COP",3.77134409,2.639,4.901,"uniform","float",2,"",3.0914,4.4486
+"141",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom202_205 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"142",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom206_208 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"143",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom209_212 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"144",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom213 PTAC DXCoil","Rated COP",3.796034697,2.6572,4.9348,"uniform","float",4,"",3.11272,4.47928
+"145",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom214 PTAC DXCoil","Rated COP",3.803284597,2.6621,4.9439,"uniform","float",5,"",3.11846,4.48754
+"146",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom215_218 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"147",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom219 PTAC DXCoil","Rated COP",3.727186868,2.6089,4.8451,"uniform","float",6,"",3.05614,4.39786
+"148",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom220_223 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"149",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom224 PTAC DXCoil","Rated COP",3.803284597,2.6621,4.9439,"uniform","float",5,"",3.11846,4.48754
+"150",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom301 PTAC DXCoil","Rated COP",3.773530409,2.639,4.901,"uniform","float",2,"",3.0914,4.4486
+"151",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom302_305 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"152",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom306_308 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"153",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom309_312 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"154",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom313 PTAC DXCoil","Rated COP",3.781642497,2.6474,4.9166,"uniform","float",7,"",3.10124,4.46276
+"155",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom314 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"156",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom315_318 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"157",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom319 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"158",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom320_323 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"159",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom324 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"160",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom401 PTAC DXCoil","Rated COP",3.654092443,2.5578,4.7502,"uniform","float",8,"",2.99628,4.31172
+"161",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom402_405 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"162",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom406_408 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"163",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom409_412 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"164",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom413 PTAC DXCoil","Rated COP",3.658167518,2.5606,4.7554,"uniform","float",8,"",2.99956,4.31644
+"165",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom414 PTAC DXCoil","Rated COP",3.684713369,2.5788,4.7892,"uniform","float",8,"",3.02088,4.34712
+"166",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom415_418 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"167",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom419 PTAC DXCoil","Rated COP",3.718316964,2.6026,4.8334,"uniform","float",8,"",3.04876,4.38724
+"168",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom420_423 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"169",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom424 PTAC DXCoil","Rated COP",3.686350977,2.5788,4.7892,"uniform","float",8,"",3.02088,4.34712
+"170",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:10_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"171",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:11_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"172",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:12_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"173",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:1_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"174",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:2_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"175",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:3_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"176",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:4_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"177",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:5_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"178",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:6_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"179",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:7_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",9,"",2.87,4.13
+"180",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:8_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"181",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:9_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"182",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",10,"HA1 - CA1 < -1",19.68,28.32
+"183",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",21,14.7,27.3,"uniform","float",11,"",17.22,24.78
+"184",0,"12_SmallOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",12,"",0.82,1.18
+"185",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:1_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"186",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:1_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"187",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:2_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"188",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:2_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"189",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:3_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"190",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:3_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"191",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:4_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"192",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:4_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"193",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:5_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"194",0,"12_SmallOffice.xml.csv","Fan:ConstantVolume","PSZ-AC:5_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"195",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:1_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"196",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"197",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:3_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"198",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"199",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"200",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",4,"HA1 - CA1 < -1",21.894,31.506
+"201",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",5,"HA3 - CA3 < -1",21.894,31.506
+"202",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",26.7,18.69,34.71,"uniform","float",6,"HA4 - CA4 < -1",21.894,31.506
+"203",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",7,"HA6 - CA6 < -1",21.894,31.506
+"204",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",8,"HA8 - CA7 < -1",21.894,31.506
+"205",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",9,"",12.792,18.408
+"206",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",10,"",17.22,24.78
+"207",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"208",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"209",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 13",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"210",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 15",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"211",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"212",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"213",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",1,"",19.68,28.32
+"214",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 7",27,18.9,35.1,"uniform","float",2,"HA2 - CA2 < -1",22.14,31.86
+"215",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 10",27,18.9,35.1,"uniform","float",2,"HA3 - CA3 < -1",22.14,31.86
+"216",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 12",24,16.8,31.2,"uniform","float",3,"HA4 - CA4 < -1",19.68,28.32
+"217",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 14",27,18.9,35.1,"uniform","float",2,"HA5 - CA5 < -1",22.14,31.86
+"218",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",24,16.8,31.2,"uniform","float",3,"",19.68,28.32
+"219",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",27,18.9,35.1,"uniform","float",2,"HA7 - CA7 < -1",22.14,31.86
+"220",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 24",27,18.9,35.1,"uniform","float",2,"HA8 - CA8 < -1",22.14,31.86
+"221",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 26",24,16.8,31.2,"uniform","float",3,"HA9 - CA9 < -1",19.68,28.32
+"222",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 28",27,18.9,35.1,"uniform","float",2,"",22.14,31.86
+"223",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 32",24,16.8,31.2,"uniform","float",3,"HA11 - CA11 < -1",19.68,28.32
+"224",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 35",27,18.9,35.1,"uniform","float",2,"HA12 - CA12 < -1",22.14,31.86
+"225",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 38",27,18.9,35.1,"uniform","float",2,"HA13 - CA13 < -1",22.14,31.86
+"226",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 40",24,16.8,31.2,"uniform","float",3,"HA14 - CA14 < -1",19.68,28.32
+"227",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 42",27,18.9,35.1,"uniform","float",2,"HA15 - CA15 < -1",22.14,31.86
+"228",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",4,"HB1 - CB1 < -1",22.14,31.86
+"229",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 6",24,16.8,31.2,"uniform","float",5,"HB2 - CB2 < -1",19.68,28.32
+"230",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",4,"HB3 - CB3 < -1",22.14,31.86
+"231",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",4,"HB4 - CB4 < -1",22.14,31.86
+"232",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"233",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",7,"",0.82,1.18
+"234",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"235",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"236",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",8,"",10.496,15.104
+"237",0,"13_Stand-aloneRetail.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",9,"",0.123,0.177
+"238",0,"13_Stand-aloneRetail.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",10,"",2.46,3.54
+"239",0,"13_Stand-aloneRetail.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"240",0,"13_Stand-aloneRetail.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"241",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom101 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"242",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom102 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"243",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom103 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"244",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom104 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"245",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom105 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"246",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom201 PTAC DXCoil","Rated COP",3.77134409,2.639,4.901,"uniform","float",2,"",3.0914,4.4486
+"247",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom202_205 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"248",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom206_208 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"249",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom209_212 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"250",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom213 PTAC DXCoil","Rated COP",3.796034697,2.6572,4.9348,"uniform","float",4,"",3.11272,4.47928
+"251",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom214 PTAC DXCoil","Rated COP",3.803284597,2.6621,4.9439,"uniform","float",5,"",3.11846,4.48754
+"252",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom215_218 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"253",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom219 PTAC DXCoil","Rated COP",3.727186868,2.6089,4.8451,"uniform","float",6,"",3.05614,4.39786
+"254",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom220_223 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"255",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom224 PTAC DXCoil","Rated COP",3.803284597,2.6621,4.9439,"uniform","float",5,"",3.11846,4.48754
+"256",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom301 PTAC DXCoil","Rated COP",3.773530409,2.639,4.901,"uniform","float",2,"",3.0914,4.4486
+"257",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom302_305 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"258",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom306_308 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"259",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom309_312 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"260",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom313 PTAC DXCoil","Rated COP",3.781642497,2.6474,4.9166,"uniform","float",7,"",3.10124,4.46276
+"261",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom314 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"262",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom315_318 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"263",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom319 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"264",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom320_323 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"265",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom324 PTAC DXCoil","Rated COP",3.803284597,2.66,4.94,"uniform","float",1,"",3.116,4.484
+"266",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom401 PTAC DXCoil","Rated COP",3.654092443,2.5578,4.7502,"uniform","float",8,"",2.99628,4.31172
+"267",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom402_405 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"268",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom406_408 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"269",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom409_412 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"270",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom413 PTAC DXCoil","Rated COP",3.658167518,2.5606,4.7554,"uniform","float",8,"",2.99956,4.31644
+"271",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom414 PTAC DXCoil","Rated COP",3.684713369,2.5788,4.7892,"uniform","float",8,"",3.02088,4.34712
+"272",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom415_418 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"273",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom419 PTAC DXCoil","Rated COP",3.718316964,2.6026,4.8334,"uniform","float",8,"",3.04876,4.38724
+"274",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom420_423 PTAC DXCoil","Rated COP",3.234477779,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"275",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","GuestRoom424 PTAC DXCoil","Rated COP",3.686350977,2.5788,4.7892,"uniform","float",8,"",3.02088,4.34712
+"276",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:10_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"277",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:11_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"278",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:12_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"279",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:1_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"280",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:2_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"281",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:3_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"282",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:4_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"283",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:5_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"284",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:6_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"285",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:7_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",9,"",2.87,4.13
+"286",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:8_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"287",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:9_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",9,"",3.00694,4.32706
+"288",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",10,"HA1 - CA1 < -1",19.68,28.32
+"289",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",21,14.7,27.3,"uniform","float",11,"",17.22,24.78
+"290",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",12,"",0.82,1.18
+"291",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:1_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"292",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:1_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"293",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:2_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"294",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:2_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"295",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:3_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"296",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:3_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"297",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:4_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"298",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:4_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"299",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:5_Fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"300",0,"13_Stand-aloneRetail.xml.csv","Fan:ConstantVolume","PSZ-AC:5_Fan","Motor Efficiency",0.825,0.5775,0.999,"uniform","float",2,"",0.6618,0.9147
+"301",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:1_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"302",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"303",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:3_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"304",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"305",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"306",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",4,"HA1 - CA1 < -1",21.894,31.506
+"307",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",5,"HA3 - CA3 < -1",21.894,31.506
+"308",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",26.7,18.69,34.71,"uniform","float",6,"HA4 - CA4 < -1",21.894,31.506
+"309",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",7,"HA6 - CA6 < -1",21.894,31.506
+"310",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",8,"HA8 - CA7 < -1",21.894,31.506
+"311",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",9,"",12.792,18.408
+"312",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",10,"",17.22,24.78
+"313",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"314",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"315",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 13",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"316",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 15",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"317",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"318",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"319",0,"13_Stand-aloneRetail.xml.csv","Lights","Back_Space_Lights","Watts per Zone Floor Area",8.61,6.027,11.193,"uniform","float",1,"",7.0602,10.1598
+"320",0,"13_Stand-aloneRetail.xml.csv","Lights","Core_Retail_Lights","Watts per Zone Floor Area",18.29,12.803,23.777,"uniform","float",2,"",14.9978,21.5822
+"321",0,"13_Stand-aloneRetail.xml.csv","Lights","Front_Entry_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",3,"",9.7088,13.9712
+"322",0,"13_Stand-aloneRetail.xml.csv","Lights","Front_Retail_Lights","Watts per Zone Floor Area",18.29,12.803,23.777,"uniform","float",2,"",14.9978,21.5822
+"323",0,"13_Stand-aloneRetail.xml.csv","Lights","Point_Of_Sale_Lights","Watts per Zone Floor Area",18.29,12.803,23.777,"uniform","float",4,"",14.9978,21.5822
+"324",0,"13_Stand-aloneRetail.xml.csv","ElectricEquipment","Back_Space_MiscPlug_Equip","Watts per Zone Floor Area",8.07,5.649,10.491,"uniform","float",5,"",6.6174,9.5226
+"325",0,"13_Stand-aloneRetail.xml.csv","ElectricEquipment","Core_Retail_MiscPlug_Equip","Watts per Zone Floor Area",3.23,2.261,4.199,"uniform","float",6,"",2.6486,3.8114
+"326",0,"13_Stand-aloneRetail.xml.csv","ElectricEquipment","Front_Retail_MiscPlug_Equip","Watts per Zone Floor Area",3.23,2.261,4.199,"uniform","float",6,"",2.6486,3.8114
+"327",0,"13_Stand-aloneRetail.xml.csv","ElectricEquipment","Point_Of_Sale_MiscPlug_Equip","Watts per Zone Floor Area",21.52,15.064,27.976,"uniform","float",7,"",17.6464,25.3936
+"328",0,"13_Stand-aloneRetail.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",8266,5786.2,10745.8,"uniform","float",8,"",6778.12,9753.88
+"329",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",30,21,39,"uniform","float",9,"HA1 - CA1 < -1",24.6,35.4
+"330",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",10,"HA2 - CA2 < -1",19.68,28.32
+"331",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",30,21,39,"uniform","float",9,"HA3 - CA3 < -1",24.6,35.4
+"332",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",30,21,39,"uniform","float",9,"HA6 - CA4 < -1",24.6,35.4
+"333",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 13",24,16.8,31.2,"uniform","float",10,"HA7 - CA5 < -1",19.68,28.32
+"334",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",30,21,39,"uniform","float",9,"HA8 - CA6 < -1",24.6,35.4
+"335",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",30,21,39,"uniform","float",9,"HA5 - CA7 < -1",24.6,35.4
+"336",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",30,21,39,"uniform","float",9,"HA9 - CA8 < -1",24.6,35.4
+"337",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 23",24,16.8,31.2,"uniform","float",10,"HA10 - CA9 < -1",19.68,28.32
+"338",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 25",30,21,39,"uniform","float",9,"HA11 - CA10 < -1",24.6,35.4
+"339",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"340",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"341",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"342",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"343",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"344",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 17",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"345",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 19",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"346",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"347",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"348",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 26",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"349",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 28",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"350",1,"14_StripMall.xml.csv","Fan:OnOff","PSZ-AC_7:7_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"351",1,"14_StripMall.xml.csv","Fan:OnOff","PSZ-AC_8:8_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",2,"",0.439725,0.632775
+"352",1,"14_StripMall.xml.csv","Fan:OnOff","PSZ-AC_9:9_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",3,"",0.439725,0.632775
+"353",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_10:10_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"354",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:1_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"355",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:2_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"356",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_3:3_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"357",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_4:4_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"358",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_5:5_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"359",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_6:6_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"360",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_7:7_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"361",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_8:8_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"362",1,"14_StripMall.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_9:9_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"363",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",7,"",0.06,0.24
+"364",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",8,"",0.06,0.24
+"365",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",9,"",0.06,0.24
+"366",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",10,"",0.06,0.24
+"367",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",11,"",0.06,0.24
+"368",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",12,"",0.06,0.24
+"369",1,"15_SuperMarket.xml.csv","Fan:OnOff","PSZ-AC_7:7_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"370",1,"15_SuperMarket.xml.csv","Fan:OnOff","PSZ-AC_8:8_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",2,"",0.439725,0.632775
+"371",1,"15_SuperMarket.xml.csv","Fan:OnOff","PSZ-AC_9:9_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",3,"",0.439725,0.632775
+"372",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_10:10_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"373",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:1_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"374",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:2_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"375",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_3:3_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"376",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_4:4_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"377",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_5:5_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"378",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_6:6_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"379",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_7:7_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"380",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_8:8_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"381",1,"15_SuperMarket.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_9:9_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"382",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",7,"",0.06,0.24
+"383",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",8,"",0.06,0.24
+"384",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",9,"",0.06,0.24
+"385",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",10,"",0.06,0.24
+"386",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",11,"",0.06,0.24
+"387",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",12,"",0.06,0.24
+"388",1,"15_SuperMarket.xml.csv","ElectricEquipment","Produce_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",1,"",4.4116,6.3484
+"389",1,"15_SuperMarket.xml.csv","ElectricEquipment","Sales_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"390",1,"15_SuperMarket.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",13577,9503.9,17650.1,"uniform","float",3,"",11133.14,16020.86
+"391",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Bakery_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"392",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Deli_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"393",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","DryStorage_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"394",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Office_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"395",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Produce_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"396",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Sales_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"397",1,"15_SuperMarket.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"398",1,"15_SuperMarket.xml.csv","Coil:Heating:Gas","PSZ-AC:3_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"399",1,"15_SuperMarket.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"400",1,"15_SuperMarket.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"401",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKA","Design Condenser Fan Power",4500,3150,5850,"uniform","float",7,"",3690,5310
+"402",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKB","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",8,"",1.066,1.534
+"403",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKB","Design Condenser Fan Power",4500,3150,5850,"uniform","float",9,"",3690,5310
+"404",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKC","Design Condenser Fan Power",4500,3150,5850,"uniform","float",10,"",3690,5310
+"405",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKD","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",11,"",1.066,1.534
+"406",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKD","Design Condenser Fan Power",4500,3150,5850,"uniform","float",12,"",3690,5310
+"407",1,"16_Warehouse.xml.csv","Fan:OnOff","PSZ-AC_7:7_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"408",1,"16_Warehouse.xml.csv","Fan:OnOff","PSZ-AC_8:8_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",2,"",0.439725,0.632775
+"409",1,"16_Warehouse.xml.csv","Fan:OnOff","PSZ-AC_9:9_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",3,"",0.439725,0.632775
+"410",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_10:10_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"411",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:1_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"412",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:2_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"413",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_3:3_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"414",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_4:4_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"415",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_5:5_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"416",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_6:6_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"417",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_7:7_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"418",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_8:8_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"419",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_9:9_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"420",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",7,"",0.06,0.24
+"421",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",8,"",0.06,0.24
+"422",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",9,"",0.06,0.24
+"423",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",10,"",0.06,0.24
+"424",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",11,"",0.06,0.24
+"425",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",12,"",0.06,0.24
+"426",1,"16_Warehouse.xml.csv","ElectricEquipment","Produce_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",1,"",4.4116,6.3484
+"427",1,"16_Warehouse.xml.csv","ElectricEquipment","Sales_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"428",1,"16_Warehouse.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",13577,9503.9,17650.1,"uniform","float",3,"",11133.14,16020.86
+"429",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Bakery_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"430",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Deli_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"431",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","DryStorage_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"432",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Office_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"433",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Produce_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"434",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Sales_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"435",1,"16_Warehouse.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"436",1,"16_Warehouse.xml.csv","Coil:Heating:Gas","PSZ-AC:3_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"437",1,"16_Warehouse.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"438",1,"16_Warehouse.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"439",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKA","Design Condenser Fan Power",4500,3150,5850,"uniform","float",7,"",3690,5310
+"440",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKB","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",8,"",1.066,1.534
+"441",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKB","Design Condenser Fan Power",4500,3150,5850,"uniform","float",9,"",3690,5310
+"442",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKC","Design Condenser Fan Power",4500,3150,5850,"uniform","float",10,"",3690,5310
+"443",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKD","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",11,"",1.066,1.534
+"444",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKD","Design Condenser Fan Power",4500,3150,5850,"uniform","float",12,"",3690,5310
+"445",1,"16_Warehouse.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_1:1_Unitary_Package_fan","Fan Efficiency",0.546,0.3822,0.7098,"uniform","float",1,"",0.44772,0.64428
+"446",1,"16_Warehouse.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_1:1_Unitary_Package_fan","Pressure Rise",622,435.4,808.6,"uniform","float",2,"",510.04,733.96
+"447",1,"16_Warehouse.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_1:1_Unitary_Package_fan","Motor Efficiency",0.84,0.588,0.999,"uniform","float",3,"",0.6702,0.9168
+"448",1,"16_Warehouse.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_2:2_Unitary_Package_fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",4,"",0.48503,0.69797
+"449",1,"16_Warehouse.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_2:2_Unitary_Package_fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"450",1,"16_Warehouse.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_2:2_Unitary_Package_fan","Motor Efficiency",0.91,0.637,0.999,"uniform","float",4,"",0.7094,0.9266
+"451",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","FURNACE_PACU_CAV_1:1_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",6,"",2.87,4.13
+"452",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","FURNACE_PACU_CAV_2:2_Unitary_Package_CoolCoil","Rated COP",3.233720558,2.261,4.199,"uniform","float",7,"",2.6486,3.8114
+"453",1,"16_Warehouse.xml.csv","Schedule:Compact","CLGSETP_FineStorage_SCH","Field 4",26.7,18.69,34.71,"uniform","float",8,"HA1 - CA1 < -1",21.894,31.506
+"454",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_BulkStorage_SCH","Field 4",7.2,5.04,9.36,"uniform","float",9,"",5.904,8.496
+"455",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_FineStorage_SCH","Field 4",15.6,10.92,20.28,"uniform","float",10,"",12.792,18.408
+"456",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"457",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"458",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"459",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"460",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"461",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"462",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"463",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"464",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","PSZ-AC_7:7_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",1,"",0.439725,0.632775
+"465",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","PSZ-AC_8:8_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",2,"",0.439725,0.632775
+"466",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","PSZ-AC_9:9_Unitary_Package_fan","Fan Efficiency",0.53625,0.375375,0.697125,"uniform","float",3,"",0.439725,0.632775
+"467",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_10:10_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"468",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:1_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"469",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:2_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"470",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_3:3_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"471",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_4:4_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"472",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_5:5_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"473",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_6:6_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"474",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_7:7_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"475",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_8:8_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"476",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_9:9_Unitary_Package_CoolCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",6,"",3.00694,4.32706
+"477",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",7,"",0.06,0.24
+"478",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",8,"",0.06,0.24
+"479",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",9,"",0.06,0.24
+"480",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",10,"",0.06,0.24
+"481",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",11,"",0.06,0.24
+"482",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",12,"",0.06,0.24
+"483",1,"1_FullServiceRestaurant.xml.csv","ElectricEquipment","Produce_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",1,"",4.4116,6.3484
+"484",1,"1_FullServiceRestaurant.xml.csv","ElectricEquipment","Sales_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"485",1,"1_FullServiceRestaurant.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",13577,9503.9,17650.1,"uniform","float",3,"",11133.14,16020.86
+"486",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Bakery_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"487",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Deli_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"488",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","DryStorage_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"489",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Office_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"490",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Produce_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"491",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Sales_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"492",1,"1_FullServiceRestaurant.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"493",1,"1_FullServiceRestaurant.xml.csv","Coil:Heating:Gas","PSZ-AC:3_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"494",1,"1_FullServiceRestaurant.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"495",1,"1_FullServiceRestaurant.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.78,0.546,0.999,"uniform","float",6,"",0.6366,0.9084
+"496",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKA","Design Condenser Fan Power",4500,3150,5850,"uniform","float",7,"",3690,5310
+"497",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKB","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",8,"",1.066,1.534
+"498",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKB","Design Condenser Fan Power",4500,3150,5850,"uniform","float",9,"",3690,5310
+"499",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKC","Design Condenser Fan Power",4500,3150,5850,"uniform","float",10,"",3690,5310
+"500",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKD","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",11,"",1.066,1.534
+"501",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKD","Design Condenser Fan Power",4500,3150,5850,"uniform","float",12,"",3690,5310
+"502",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_1:1_Unitary_Package_fan","Fan Efficiency",0.546,0.3822,0.7098,"uniform","float",1,"",0.44772,0.64428
+"503",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_1:1_Unitary_Package_fan","Pressure Rise",622,435.4,808.6,"uniform","float",2,"",510.04,733.96
+"504",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_1:1_Unitary_Package_fan","Motor Efficiency",0.84,0.588,0.999,"uniform","float",3,"",0.6702,0.9168
+"505",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_2:2_Unitary_Package_fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",4,"",0.48503,0.69797
+"506",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_2:2_Unitary_Package_fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"507",1,"1_FullServiceRestaurant.xml.csv","Fan:OnOff","FURNACE_PACU_CAV_2:2_Unitary_Package_fan","Motor Efficiency",0.91,0.637,0.999,"uniform","float",4,"",0.7094,0.9266
+"508",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","FURNACE_PACU_CAV_1:1_Unitary_Package_CoolCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",6,"",2.87,4.13
+"509",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","FURNACE_PACU_CAV_2:2_Unitary_Package_CoolCoil","Rated COP",3.233720558,2.261,4.199,"uniform","float",7,"",2.6486,3.8114
+"510",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_FineStorage_SCH","Field 4",26.7,18.69,34.71,"uniform","float",8,"HA1 - CA1 < -1",21.894,31.506
+"511",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_BulkStorage_SCH","Field 4",7.2,5.04,9.36,"uniform","float",9,"",5.904,8.496
+"512",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_FineStorage_SCH","Field 4",15.6,10.92,20.28,"uniform","float",10,"",12.792,18.408
+"513",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"514",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"515",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"516",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"517",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"518",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"519",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"520",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",15.5,10.85,20.15,"uniform","float",11,"",12.71,18.29
+"521",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Dining_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"522",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Kitchen_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"523",1,"1_FullServiceRestaurant.xml.csv","Coil:Heating:Gas","PSZ-AC_1:1_HeatC","Gas Burner Efficiency",0.78,0.546,1,"uniform","float",2,"",0.6368,0.9092
+"524",1,"1_FullServiceRestaurant.xml.csv","Coil:Heating:Gas","PSZ-AC_2:2_HeatC","Gas Burner Efficiency",0.8,0.56,1,"uniform","float",3,"",0.648,0.912
+"525",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 4",30,21,39,"uniform","float",4,"HA2 - CA1 < -1",24.6,35.4
+"526",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 7",26,18.2,33.8,"uniform","float",5,"HA3 - CA2 < -1",21.32,30.68
+"527",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 9",30,21,39,"uniform","float",4,"HA4 - CA3 < -1",24.6,35.4
+"528",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 11",26,18.2,33.8,"uniform","float",5,"HA5 - CA4 < -1",21.32,30.68
+"529",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 4",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"530",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 7",19,13.3,24.7,"uniform","float",7,"",15.58,22.42
+"531",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 10",19,13.3,24.7,"uniform","float",7,"",15.58,22.42
+"532",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 12",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"533",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 14",19,13.3,24.7,"uniform","float",7,"",15.58,22.42
+"534",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",30,21,39,"uniform","float",4,"HB2 - CB1 < -1",24.6,35.4
+"535",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 7",24,16.8,31.2,"uniform","float",8,"HB3 - CB2 < -1",19.68,28.32
+"536",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 9",30,21,39,"uniform","float",4,"HB4 - CB3 < -1",24.6,35.4
+"537",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",24,16.8,31.2,"uniform","float",8,"HB5 - CB4 < -1",19.68,28.32
+"538",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"539",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 7",21,14.7,27.3,"uniform","float",9,"",17.22,24.78
+"540",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 10",21,14.7,27.3,"uniform","float",9,"",17.22,24.78
+"541",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 12",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"542",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",21,14.7,27.3,"uniform","float",9,"",17.22,24.78
+"543",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",0,0,0.3,"exponential","float",10,"",0.06,0.24
+"544",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",1,0.7,1.3,"uniform","float",10,"",0.82,1.18
+"545",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK1","Design Compressor Rack COP",1.5,1.05,1.95,"uniform","float",11,"",1.23,1.77
+"546",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK1","Design Condenser Fan Power",330,231,429,"uniform","float",12,"",270.6,389.4
+"547",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK2","Design Compressor Rack COP",3,2.1,3.9,"uniform","float",11,"",2.46,3.54
+"548",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK2","Design Condenser Fan Power",330,231,429,"uniform","float",12,"",270.6,389.4
+"549",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 6",22.2,15.54,28.86,"uniform","float",1,"HA2 - CA2 < - 1",18.204,26.196
+"550",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 13",22.2,15.54,28.86,"uniform","float",2,"HA5 - CA5 < -1",18.204,26.196
+"551",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 20",22.2,15.54,28.86,"uniform","float",2,"HA8 - CA8 < -1",18.204,26.196
+"552",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 27",22.2,15.54,28.86,"uniform","float",2,"HA11 - CA11 < -1",18.204,26.196
+"553",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"554",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 6",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"555",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 8",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"556",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 11",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"557",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 13",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"558",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 15",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"559",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 18",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"560",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 20",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"561",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 22",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"562",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 25",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"563",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 27",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"564",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 29",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"565",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 32",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"566",2,"2_Hospital.xml.csv","Schedule:Compact","CRITICAL_CLGSETP_SCH","Field 4",22.2,15.54,28.86,"uniform","float",6,"HC1 - CC1 < -1",18.204,26.196
+"567",2,"2_Hospital.xml.csv","Schedule:Compact","CRITICAL_HTGSETP_SCH","Field 4",21.1,14.77,27.43,"uniform","float",7,"",17.302,24.898
+"568",2,"2_Hospital.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 4",22.2,15.54,28.86,"uniform","float",8,"HD1 - CD1 < -1",18.204,26.196
+"569",2,"2_Hospital.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 6",18.3,12.81,23.79,"uniform","float",9,"HD1 - CD2 < -1",15.006,21.594
+"570",2,"2_Hospital.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 8",22.2,15.54,28.86,"uniform","float",8,"HD1 - CD3 < -1",18.204,26.196
+"571",2,"2_Hospital.xml.csv","Schedule:Compact","OR_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"572",2,"2_Hospital.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller","Reference COP",6.1,4.27,7.93,"uniform","float",10,"",5.002,7.198
+"573",2,"2_Hospital.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.1,0.07,0.13,"uniform","float",11,"",0.082,0.118
+"574",2,"2_Hospital.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",12,"",147068.64,211635.36
+"575",2,"2_Hospital.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",12,"",147068.64,211635.36
+"576",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 6",22.2,15.54,28.86,"uniform","float",1,"HA2 - CA2 < - 1",18.204,26.196
+"577",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 13",22.2,15.54,28.86,"uniform","float",2,"HA5 - CA5 < -1",18.204,26.196
+"578",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 20",22.2,15.54,28.86,"uniform","float",2,"HA8 - CA8 < -1",18.204,26.196
+"579",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 27",22.2,15.54,28.86,"uniform","float",2,"HA11 - CA11 < -1",18.204,26.196
+"580",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"581",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 6",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"582",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 8",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"583",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 11",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"584",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 13",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"585",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 15",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"586",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 18",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"587",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 20",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"588",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 22",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"589",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 25",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"590",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 27",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"591",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 29",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"592",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 32",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"593",2,"3_LargeHotel.xml.csv","Schedule:Compact","CRITICAL_CLGSETP_SCH","Field 4",22.2,15.54,28.86,"uniform","float",6,"HC1 - CC1 < -1",18.204,26.196
+"594",2,"3_LargeHotel.xml.csv","Schedule:Compact","CRITICAL_HTGSETP_SCH","Field 4",21.1,14.77,27.43,"uniform","float",7,"",17.302,24.898
+"595",2,"3_LargeHotel.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 4",22.2,15.54,28.86,"uniform","float",8,"HD1 - CD1 < -1",18.204,26.196
+"596",2,"3_LargeHotel.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 6",18.3,12.81,23.79,"uniform","float",9,"HD1 - CD2 < -1",15.006,21.594
+"597",2,"3_LargeHotel.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 8",22.2,15.54,28.86,"uniform","float",8,"HD1 - CD3 < -1",18.204,26.196
+"598",2,"3_LargeHotel.xml.csv","Schedule:Compact","OR_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"599",2,"3_LargeHotel.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller","Reference COP",6.1,4.27,7.93,"uniform","float",10,"",5.002,7.198
+"600",2,"3_LargeHotel.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.1,0.07,0.13,"uniform","float",11,"",0.082,0.118
+"601",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",12,"",147068.64,211635.36
+"602",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",12,"",147068.64,211635.36
+"603",2,"3_LargeHotel.xml.csv","Sizing:Parameters","Sizing:Parameters","Heating Sizing Factor",1.33,0.931,1.729,"uniform","float",1,"",1.0906,1.5694
+"604",2,"3_LargeHotel.xml.csv","Sizing:Parameters","Sizing:Parameters","Cooling Sizing Factor",1.33,0.931,1.729,"uniform","float",1,"",1.0906,1.5694
+"605",2,"3_LargeHotel.xml.csv","Lights","Banquet_Flr_6_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,"",11.4718,16.5082
+"606",2,"3_LargeHotel.xml.csv","Lights","Basement_Lights","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,"",8.8232,12.6968
+"607",2,"3_LargeHotel.xml.csv","Lights","Cafe_Flr_1_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,"",11.4718,16.5082
+"608",2,"3_LargeHotel.xml.csv","Lights","Corridor_Flr_3_Lights","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"609",2,"3_LargeHotel.xml.csv","Lights","Corridor_Flr_6_Lights","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"610",2,"3_LargeHotel.xml.csv","Lights","Dining_Flr_6_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,"",11.4718,16.5082
+"611",2,"3_LargeHotel.xml.csv","Lights","Kitchen_Flr_6_Lights","Watts per Zone Floor Area",12.91,9.037,16.783,"uniform","float",2,"",10.5862,15.2338
+"612",2,"3_LargeHotel.xml.csv","Lights","Laundry_Flr_1_Lights","Watts per Zone Floor Area",6.46,4.522,8.398,"uniform","float",2,"",5.2972,7.6228
+"613",2,"3_LargeHotel.xml.csv","Lights","Lobby_Flr_1_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"614",2,"3_LargeHotel.xml.csv","Lights","Retail_1_Flr_1_Lights","Watts per Zone Floor Area",16.14,11.298,20.982,"uniform","float",2,"",13.2348,19.0452
+"615",2,"3_LargeHotel.xml.csv","Lights","Retail_2_Flr_1_Lights","Watts per Zone Floor Area",16.14,11.298,20.982,"uniform","float",2,"",13.2348,19.0452
+"616",2,"3_LargeHotel.xml.csv","Lights","Room_1_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"617",2,"3_LargeHotel.xml.csv","Lights","Room_1_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"618",2,"3_LargeHotel.xml.csv","Lights","Room_2_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"619",2,"3_LargeHotel.xml.csv","Lights","Room_2_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"620",2,"3_LargeHotel.xml.csv","Lights","Room_3_Mult19_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"621",2,"3_LargeHotel.xml.csv","Lights","Room_3_Mult9_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"622",2,"3_LargeHotel.xml.csv","Lights","Room_4_Mult19_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"623",2,"3_LargeHotel.xml.csv","Lights","Room_5_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"624",2,"3_LargeHotel.xml.csv","Lights","Room_6_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"625",2,"3_LargeHotel.xml.csv","Lights","Storage_Flr_1_Lights","Watts per Zone Floor Area",9.68,6.776,12.584,"uniform","float",2,"",7.9376,11.4224
+"626",2,"3_LargeHotel.xml.csv","ElectricEquipment","Banquet_Flr_6_MiscPlug_Equip","Design Level",22492,15744.4,29239.6,"uniform","float",3,"",18443.44,26540.56
+"627",2,"3_LargeHotel.xml.csv","ElectricEquipment","Basement_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"628",2,"3_LargeHotel.xml.csv","ElectricEquipment","Cafe_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"629",2,"3_LargeHotel.xml.csv","ElectricEquipment","Dining_Flr_6_MiscPlug_Equip","Design Level",22492,15744.4,29239.6,"uniform","float",3,"",18443.44,26540.56
+"630",2,"3_LargeHotel.xml.csv","ElectricEquipment","Kitchen_Flr_6_ExhFan_Equip","Design Level",698,488.6,907.4,"uniform","float",3,"",572.36,823.64
+"631",2,"3_LargeHotel.xml.csv","ElectricEquipment","Kitchen_Flr_6_MiscElec_Equip","Design Level",52481,36736.7,68225.3,"uniform","float",3,"",43034.42,61927.58
+"632",2,"3_LargeHotel.xml.csv","ElectricEquipment","Laundry_Flr_1_MiscPlug_Equip","Design Level",4813,3369.1,6256.9,"uniform","float",3,"",3946.66,5679.34
+"633",2,"3_LargeHotel.xml.csv","ElectricEquipment","Laundry_Flr_1_ExhFan_Equip","Design Level",87,60.9,113.1,"uniform","float",3,"",71.34,102.66
+"634",2,"3_LargeHotel.xml.csv","ElectricEquipment","Lobby_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",8.07,5.649,10.491,"uniform","float",2,"",6.6174,9.5226
+"635",2,"3_LargeHotel.xml.csv","ElectricEquipment","Mech_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"636",2,"3_LargeHotel.xml.csv","ElectricEquipment","Retail_1_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,"",8.8232,12.6968
+"637",2,"3_LargeHotel.xml.csv","ElectricEquipment","Retail_2_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,"",8.8232,12.6968
+"638",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_1_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"639",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_1_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"640",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_2_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"641",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_2_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"642",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_3_Mult19_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"643",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_3_Mult9_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"644",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_4_Mult19_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"645",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_5_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"646",2,"3_LargeHotel.xml.csv","ElectricEquipment","Room_6_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"647",2,"3_LargeHotel.xml.csv","ElectricEquipment","Storage_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",2.69,1.883,3.497,"uniform","float",2,"",2.2058,3.1742
+"648",2,"3_LargeHotel.xml.csv","GasEquipment","Kitchen_Flr_6_MiscGas_Equip","Design Level",166606,116624.2,216587.8,"uniform","float",3,"",136616.92,196595.08
+"649",2,"3_LargeHotel.xml.csv","GasEquipment","Laundry_Flr_1_MiscGas_Equip","Design Level",41818,29272.6,54363.4,"uniform","float",3,"",34290.76,49345.24
+"650",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Banquet_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"651",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Cafe_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"652",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Corridor_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"653",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Corridor_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"654",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Dining_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"655",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Kitchen_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"656",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Laundry_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"657",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Lobby_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"658",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Mech_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"659",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Retail_1_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"660",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Retail_2_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"661",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_1_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"662",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_1_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"663",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_2_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"664",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_2_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"665",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_3_Mult19_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"666",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_3_Mult9_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"667",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_4_Mult19_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"668",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_5_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"669",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Room_6_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"670",2,"3_LargeHotel.xml.csv","ZoneInfiltration:DesignFlowRate","Storage_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"671",2,"3_LargeHotel.xml.csv","Fan:VariableVolume","VAV WITH REHEAT_Fan","Fan Efficiency",0.61425,0.429975,0.798525,"uniform","float",5,"",0.503685,0.724815
+"672",2,"3_LargeHotel.xml.csv","Fan:VariableVolume","VAV WITH REHEAT_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",5,"",834.42552,1200.75888
+"673",2,"3_LargeHotel.xml.csv","Fan:ConstantVolume","FLR_3_DOAS_Fan","Fan Efficiency",0.56875,0.398125,0.739375,"uniform","float",6,"",0.466375,0.671125
+"674",2,"3_LargeHotel.xml.csv","Fan:ConstantVolume","FLR_3_DOAS_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",6,"",510.04,733.96
+"675",2,"3_LargeHotel.xml.csv","Fan:ConstantVolume","FLR_6_DOAS_Fan","Fan Efficiency",0.53625,0.375375,0.697215,"uniform","float",6,"",0.439743,0.632847
+"676",2,"3_LargeHotel.xml.csv","Fan:ConstantVolume","FLR_6_DOAS_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",6,"",510.04,733.96
+"677",2,"3_LargeHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HA1 - CA1 < -1",24.6,35.4
+"678",2,"3_LargeHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",7,"HA2 - CA2 < -1",19.68,28.32
+"679",2,"3_LargeHotel.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",7,"",13.12,18.88
+"680",2,"3_LargeHotel.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",7,"",17.22,24.78
+"681",2,"3_LargeHotel.xml.csv","Schedule:Compact","Corr_CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HB1 - CB1 < -1",24.6,35.4
+"682",2,"3_LargeHotel.xml.csv","Schedule:Compact","Corr_HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",7,"",13.12,18.88
+"683",2,"3_LargeHotel.xml.csv","Schedule:Compact","Guest_CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",7,"HC1 - CC1 < -1",19.68,28.32
+"684",2,"3_LargeHotel.xml.csv","Schedule:Compact","Guest_HTGSETP_SCH","Field 4",21,14.7,27.3,"uniform","float",7,"",17.22,24.78
+"685",2,"3_LargeHotel.xml.csv","Schedule:Compact","Kitchen_CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HD1 - CD1 < -1",24.6,35.4
+"686",2,"3_LargeHotel.xml.csv","Schedule:Compact","Kitchen_CLGSETP_SCH","Field 6",26,18.2,33.8,"uniform","float",7,"HD2 - CD2 < -1",21.32,30.68
+"687",2,"3_LargeHotel.xml.csv","Schedule:Compact","Kitchen_HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",7,"",13.12,18.88
+"688",2,"3_LargeHotel.xml.csv","Schedule:Compact","Kitchen_HTGSETP_SCH","Field 6",19,13.3,24.7,"uniform","float",7,"",15.58,22.42
+"689",2,"3_LargeHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",7,"",0.06,0.24
+"690",2,"3_LargeHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",7,"",0.82,1.18
+"691",2,"3_LargeHotel.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",13,9.1,16.9,"uniform","float",8,"",10.66,15.34
+"692",2,"3_LargeHotel.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.78,0.546,0.99,"uniform","float",9,"",0.6348,0.9012
+"693",2,"3_LargeHotel.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",9,"",67.404,96.996
+"694",2,"3_LargeHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 1","Reference COP",5.5,3.85,7.15,"uniform","float",10,"",4.51,6.49
+"695",2,"3_LargeHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 1","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",10,"",0.123,0.177
+"696",2,"3_LargeHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 2","Reference COP",5.5,3.85,7.15,"uniform","float",10,"",4.51,6.49
+"697",2,"3_LargeHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 2","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",10,"",0.123,0.177
+"698",2,"3_LargeHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 2","Maximum Part Load Ratio",1,0.7,1,"uniform","float",10,"",0.76,0.94
+"699",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",11,"",147068.64,211635.36
+"700",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",11,"",147068.64,211635.36
+"701",2,"3_LargeHotel.xml.csv","Schedule:Compact","CW-Loop-Temp-Schedule","Field 4",6.7,4.69,8.71,"uniform","float",8,"",5.494,7.906
+"702",2,"3_LargeHotel.xml.csv","Schedule:Compact","HW-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",8,"",49.2,70.8
+"703",2,"3_LargeHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",2,1.4,2.6,"uniform","float",12,"",1.64,2.36
+"704",2,"3_LargeHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",12,"",692900,997100
+"705",2,"3_LargeHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"706",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","SWHSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",11,"",147068.64,211635.36
+"707",2,"3_LargeHotel.xml.csv","Schedule:Compact","Guest Room Water Equipment Hot Supply Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",8,"",35.26,50.74
+"708",2,"3_LargeHotel.xml.csv","Schedule:Compact","Guest Room Water Equipment Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",8,"",35.26,50.74
+"709",2,"3_LargeHotel.xml.csv","Schedule:Compact","Kitchen Water Equipment Hot Supply Temp Sched","Field 4",49,34.3,63.7,"uniform","float",8,"",40.18,57.82
+"710",2,"3_LargeHotel.xml.csv","Schedule:Compact","Kitchen Water Equipment Temp Sched","Field 4",49,34.3,63.7,"uniform","float",8,"",40.18,57.82
+"711",2,"3_LargeHotel.xml.csv","Schedule:Compact","SWHSys1 Water Heater Setpoint Temperature Schedule Name","Field 4",60,42,78,"uniform","float",8,"",49.2,70.8
+"712",2,"3_LargeHotel.xml.csv","Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",8,"",49.2,70.8
+"713",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 6",22.2,15.54,28.86,"uniform","float",1,"HA2 - CA2 < - 1",18.204,26.196
+"714",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 13",22.2,15.54,28.86,"uniform","float",2,"HA5 - CA5 < -1",18.204,26.196
+"715",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 20",22.2,15.54,28.86,"uniform","float",2,"HA8 - CA8 < -1",18.204,26.196
+"716",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_CLGSETP_SCH","Field 27",22.2,15.54,28.86,"uniform","float",2,"HA11 - CA11 < -1",18.204,26.196
+"717",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"718",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 6",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"719",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 8",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"720",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 11",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"721",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 13",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"722",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 15",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"723",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 18",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"724",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 20",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"725",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 22",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"726",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 25",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"727",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 27",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"728",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 29",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"729",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 32",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"730",2,"4_LargeOffice.xml.csv","Schedule:Compact","CRITICAL_CLGSETP_SCH","Field 4",22.2,15.54,28.86,"uniform","float",6,"HC1 - CC1 < -1",18.204,26.196
+"731",2,"4_LargeOffice.xml.csv","Schedule:Compact","CRITICAL_HTGSETP_SCH","Field 4",21.1,14.77,27.43,"uniform","float",7,"",17.302,24.898
+"732",2,"4_LargeOffice.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 4",22.2,15.54,28.86,"uniform","float",8,"HD1 - CD1 < -1",18.204,26.196
+"733",2,"4_LargeOffice.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 6",18.3,12.81,23.79,"uniform","float",9,"HD1 - CD2 < -1",15.006,21.594
+"734",2,"4_LargeOffice.xml.csv","Schedule:Compact","OR_CLGSETP_SCH","Field 8",22.2,15.54,28.86,"uniform","float",8,"HD1 - CD3 < -1",18.204,26.196
+"735",2,"4_LargeOffice.xml.csv","Schedule:Compact","OR_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"736",2,"4_LargeOffice.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller","Reference COP",6.1,4.27,7.93,"uniform","float",10,"",5.002,7.198
+"737",2,"4_LargeOffice.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.1,0.07,0.13,"uniform","float",11,"",0.082,0.118
+"738",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",12,"",147068.64,211635.36
+"739",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",12,"",147068.64,211635.36
+"740",2,"4_LargeOffice.xml.csv","Sizing:Parameters","Sizing:Parameters","Heating Sizing Factor",1.33,0.931,1.729,"uniform","float",1,"",1.0906,1.5694
+"741",2,"4_LargeOffice.xml.csv","Sizing:Parameters","Sizing:Parameters","Cooling Sizing Factor",1.33,0.931,1.729,"uniform","float",1,"",1.0906,1.5694
+"742",2,"4_LargeOffice.xml.csv","Lights","Banquet_Flr_6_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,"",11.4718,16.5082
+"743",2,"4_LargeOffice.xml.csv","Lights","Basement_Lights","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,"",8.8232,12.6968
+"744",2,"4_LargeOffice.xml.csv","Lights","Cafe_Flr_1_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,"",11.4718,16.5082
+"745",2,"4_LargeOffice.xml.csv","Lights","Corridor_Flr_3_Lights","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"746",2,"4_LargeOffice.xml.csv","Lights","Corridor_Flr_6_Lights","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"747",2,"4_LargeOffice.xml.csv","Lights","Dining_Flr_6_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,"",11.4718,16.5082
+"748",2,"4_LargeOffice.xml.csv","Lights","Kitchen_Flr_6_Lights","Watts per Zone Floor Area",12.91,9.037,16.783,"uniform","float",2,"",10.5862,15.2338
+"749",2,"4_LargeOffice.xml.csv","Lights","Laundry_Flr_1_Lights","Watts per Zone Floor Area",6.46,4.522,8.398,"uniform","float",2,"",5.2972,7.6228
+"750",2,"4_LargeOffice.xml.csv","Lights","Lobby_Flr_1_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"751",2,"4_LargeOffice.xml.csv","Lights","Retail_1_Flr_1_Lights","Watts per Zone Floor Area",16.14,11.298,20.982,"uniform","float",2,"",13.2348,19.0452
+"752",2,"4_LargeOffice.xml.csv","Lights","Retail_2_Flr_1_Lights","Watts per Zone Floor Area",16.14,11.298,20.982,"uniform","float",2,"",13.2348,19.0452
+"753",2,"4_LargeOffice.xml.csv","Lights","Room_1_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"754",2,"4_LargeOffice.xml.csv","Lights","Room_1_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"755",2,"4_LargeOffice.xml.csv","Lights","Room_2_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"756",2,"4_LargeOffice.xml.csv","Lights","Room_2_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"757",2,"4_LargeOffice.xml.csv","Lights","Room_3_Mult19_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"758",2,"4_LargeOffice.xml.csv","Lights","Room_3_Mult9_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"759",2,"4_LargeOffice.xml.csv","Lights","Room_4_Mult19_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"760",2,"4_LargeOffice.xml.csv","Lights","Room_5_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"761",2,"4_LargeOffice.xml.csv","Lights","Room_6_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,"",9.7088,13.9712
+"762",2,"4_LargeOffice.xml.csv","Lights","Storage_Flr_1_Lights","Watts per Zone Floor Area",9.68,6.776,12.584,"uniform","float",2,"",7.9376,11.4224
+"763",2,"4_LargeOffice.xml.csv","ElectricEquipment","Banquet_Flr_6_MiscPlug_Equip","Design Level",22492,15744.4,29239.6,"uniform","float",3,"",18443.44,26540.56
+"764",2,"4_LargeOffice.xml.csv","ElectricEquipment","Basement_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"765",2,"4_LargeOffice.xml.csv","ElectricEquipment","Cafe_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"766",2,"4_LargeOffice.xml.csv","ElectricEquipment","Dining_Flr_6_MiscPlug_Equip","Design Level",22492,15744.4,29239.6,"uniform","float",3,"",18443.44,26540.56
+"767",2,"4_LargeOffice.xml.csv","ElectricEquipment","Kitchen_Flr_6_ExhFan_Equip","Design Level",698,488.6,907.4,"uniform","float",3,"",572.36,823.64
+"768",2,"4_LargeOffice.xml.csv","ElectricEquipment","Kitchen_Flr_6_MiscElec_Equip","Design Level",52481,36736.7,68225.3,"uniform","float",3,"",43034.42,61927.58
+"769",2,"4_LargeOffice.xml.csv","ElectricEquipment","Laundry_Flr_1_MiscPlug_Equip","Design Level",4813,3369.1,6256.9,"uniform","float",3,"",3946.66,5679.34
+"770",2,"4_LargeOffice.xml.csv","ElectricEquipment","Laundry_Flr_1_ExhFan_Equip","Design Level",87,60.9,113.1,"uniform","float",3,"",71.34,102.66
+"771",2,"4_LargeOffice.xml.csv","ElectricEquipment","Lobby_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",8.07,5.649,10.491,"uniform","float",2,"",6.6174,9.5226
+"772",2,"4_LargeOffice.xml.csv","ElectricEquipment","Mech_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"773",2,"4_LargeOffice.xml.csv","ElectricEquipment","Retail_1_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,"",8.8232,12.6968
+"774",2,"4_LargeOffice.xml.csv","ElectricEquipment","Retail_2_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,"",8.8232,12.6968
+"775",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_1_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"776",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_1_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"777",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_2_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"778",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_2_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"779",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_3_Mult19_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"780",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_3_Mult9_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"781",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_4_Mult19_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"782",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_5_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"783",2,"4_LargeOffice.xml.csv","ElectricEquipment","Room_6_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,"",11.726,16.874
+"784",2,"4_LargeOffice.xml.csv","ElectricEquipment","Storage_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",2.69,1.883,3.497,"uniform","float",2,"",2.2058,3.1742
+"785",2,"4_LargeOffice.xml.csv","GasEquipment","Kitchen_Flr_6_MiscGas_Equip","Design Level",166606,116624.2,216587.8,"uniform","float",3,"",136616.92,196595.08
+"786",2,"4_LargeOffice.xml.csv","GasEquipment","Laundry_Flr_1_MiscGas_Equip","Design Level",41818,29272.6,54363.4,"uniform","float",3,"",34290.76,49345.24
+"787",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Banquet_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"788",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Cafe_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"789",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Corridor_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"790",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Corridor_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"791",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Dining_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"792",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Kitchen_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"793",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Laundry_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"794",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Lobby_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"795",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Mech_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"796",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Retail_1_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"797",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Retail_2_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"798",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_1_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"799",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_1_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"800",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_2_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"801",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_2_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"802",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_3_Mult19_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"803",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_3_Mult9_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"804",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_4_Mult19_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"805",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_5_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"806",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Room_6_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"807",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Storage_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"808",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV WITH REHEAT_Fan","Fan Efficiency",0.61425,0.429975,0.798525,"uniform","float",5,"",0.503685,0.724815
+"809",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV WITH REHEAT_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",5,"",834.42552,1200.75888
+"810",2,"4_LargeOffice.xml.csv","Fan:ConstantVolume","FLR_3_DOAS_Fan","Fan Efficiency",0.56875,0.398125,0.739375,"uniform","float",6,"",0.466375,0.671125
+"811",2,"4_LargeOffice.xml.csv","Fan:ConstantVolume","FLR_3_DOAS_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",6,"",510.04,733.96
+"812",2,"4_LargeOffice.xml.csv","Fan:ConstantVolume","FLR_6_DOAS_Fan","Fan Efficiency",0.53625,0.375375,0.697215,"uniform","float",6,"",0.439743,0.632847
+"813",2,"4_LargeOffice.xml.csv","Fan:ConstantVolume","FLR_6_DOAS_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",6,"",510.04,733.96
+"814",2,"4_LargeOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HA1 - CA1 < -1",24.6,35.4
+"815",2,"4_LargeOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",7,"HA2 - CA2 < -1",19.68,28.32
+"816",2,"4_LargeOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",7,"",13.12,18.88
+"817",2,"4_LargeOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",7,"",17.22,24.78
+"818",2,"4_LargeOffice.xml.csv","Schedule:Compact","Corr_CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HB1 - CB1 < -1",24.6,35.4
+"819",2,"4_LargeOffice.xml.csv","Schedule:Compact","Corr_HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",7,"",13.12,18.88
+"820",2,"4_LargeOffice.xml.csv","Schedule:Compact","Guest_CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",7,"HC1 - CC1 < -1",19.68,28.32
+"821",2,"4_LargeOffice.xml.csv","Schedule:Compact","Guest_HTGSETP_SCH","Field 4",21,14.7,27.3,"uniform","float",7,"",17.22,24.78
+"822",2,"4_LargeOffice.xml.csv","Schedule:Compact","Kitchen_CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HD1 - CD1 < -1",24.6,35.4
+"823",2,"4_LargeOffice.xml.csv","Schedule:Compact","Kitchen_CLGSETP_SCH","Field 6",26,18.2,33.8,"uniform","float",7,"HD2 - CD2 < -1",21.32,30.68
+"824",2,"4_LargeOffice.xml.csv","Schedule:Compact","Kitchen_HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",7,"",13.12,18.88
+"825",2,"4_LargeOffice.xml.csv","Schedule:Compact","Kitchen_HTGSETP_SCH","Field 6",19,13.3,24.7,"uniform","float",7,"",15.58,22.42
+"826",2,"4_LargeOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",7,"",0.06,0.24
+"827",2,"4_LargeOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",7,"",0.82,1.18
+"828",2,"4_LargeOffice.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",13,9.1,16.9,"uniform","float",8,"",10.66,15.34
+"829",2,"4_LargeOffice.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.78,0.546,0.99,"uniform","float",9,"",0.6348,0.9012
+"830",2,"4_LargeOffice.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",9,"",67.404,96.996
+"831",2,"4_LargeOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 1","Reference COP",5.5,3.85,7.15,"uniform","float",10,"",4.51,6.49
+"832",2,"4_LargeOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 1","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",10,"",0.123,0.177
+"833",2,"4_LargeOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 2","Reference COP",5.5,3.85,7.15,"uniform","float",10,"",4.51,6.49
+"834",2,"4_LargeOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 2","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",10,"",0.123,0.177
+"835",2,"4_LargeOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller 2","Maximum Part Load Ratio",1,0.7,1,"uniform","float",10,"",0.76,0.94
+"836",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",11,"",147068.64,211635.36
+"837",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",11,"",147068.64,211635.36
+"838",2,"4_LargeOffice.xml.csv","Schedule:Compact","CW-Loop-Temp-Schedule","Field 4",6.7,4.69,8.71,"uniform","float",8,"",5.494,7.906
+"839",2,"4_LargeOffice.xml.csv","Schedule:Compact","HW-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",8,"",49.2,70.8
+"840",2,"4_LargeOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",2,1.4,2.6,"uniform","float",12,"",1.64,2.36
+"841",2,"4_LargeOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",12,"",692900,997100
+"842",2,"4_LargeOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"843",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","SWHSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",11,"",147068.64,211635.36
+"844",2,"4_LargeOffice.xml.csv","Schedule:Compact","Guest Room Water Equipment Hot Supply Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",8,"",35.26,50.74
+"845",2,"4_LargeOffice.xml.csv","Schedule:Compact","Guest Room Water Equipment Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",8,"",35.26,50.74
+"846",2,"4_LargeOffice.xml.csv","Schedule:Compact","Kitchen Water Equipment Hot Supply Temp Sched","Field 4",49,34.3,63.7,"uniform","float",8,"",40.18,57.82
+"847",2,"4_LargeOffice.xml.csv","Schedule:Compact","Kitchen Water Equipment Temp Sched","Field 4",49,34.3,63.7,"uniform","float",8,"",40.18,57.82
+"848",2,"4_LargeOffice.xml.csv","Schedule:Compact","SWHSys1 Water Heater Setpoint Temperature Schedule Name","Field 4",60,42,78,"uniform","float",8,"",49.2,70.8
+"849",2,"4_LargeOffice.xml.csv","Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",8,"",49.2,70.8
+"850",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","GroundFloor_Plenum_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"851",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","MidFloor_Plenum_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"852",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_bot_ZN_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"853",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_bot_ZN_2_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"854",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_bot_ZN_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"855",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_bot_ZN_4_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"856",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_mid_ZN_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"857",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_mid_ZN_2_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"858",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_mid_ZN_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"859",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_mid_ZN_4_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"860",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"861",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_2_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"862",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"863",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_4_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"864",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","TopFloor_Plenum_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"865",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_1_Fan","Fan Efficiency",0.6045,0.042315,0.078585,"uniform","float",5,"",0.049569,0.071331
+"866",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_1_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",6,"",834.42552,1200.75888
+"867",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_2_Fan","Fan Efficiency",0.6175,0.43225,0.80275,"uniform","float",7,"",0.50635,0.72865
+"868",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_2_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",6,"",834.42552,1200.75888
+"869",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_3_Fan","Fan Efficiency",0.6045,0.042315,0.078585,"uniform","float",8,"",0.049569,0.071331
+"870",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_3_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",6,"",834.42552,1200.75888
+"871",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_5_Fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",9,"",0.48503,0.69797
+"872",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_5_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",10,"",909.91128,1309.38432
+"873",2,"4_LargeOffice.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",11,"",67.404,96.996
+"874",2,"4_LargeOffice.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller 1","Reference COP",5.5,3.85,7.15,"uniform","float",12,"",4.51,6.49
+"875",2,"4_LargeOffice.xml.csv","Chiller:Electric:ReformulatedEIR","CoolSys1 Chiller 2","Reference COP",5.5,3.85,7.15,"uniform","float",12,"",4.51,6.49
+"876",3,"5_MediumOffice.xml.csv","ElectricEquipment","Core_bottom_Elevators_Equip","Design Level",32109.89011,22476.92,41742.86,"uniform","float",1,"",26330.108,37889.672
+"877",3,"5_MediumOffice.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",14804,10362.8,19245.2,"uniform","float",2,"",12139.28,17468.72
+"878",3,"5_MediumOffice.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"879",3,"5_MediumOffice.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"880",3,"5_MediumOffice.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"881",3,"5_MediumOffice.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"882",3,"5_MediumOffice.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"883",3,"5_MediumOffice.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"884",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",5,"HA1 - CA1 < -1",21.894,31.506
+"885",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",6,"HA2 - CA2 < -1",19.68,28.32
+"886",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",7,"HA3 - CA3 < -1",21.894,31.506
+"887",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",26.7,18.69,34.71,"uniform","float",8,"HA5 - CA4 < -1",21.894,31.506
+"888",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 13",24,16.8,31.2,"uniform","float",6,"HA6 - CA5 < -1",19.68,28.32
+"889",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",9,"HA7 - CA6 < -1",21.894,31.506
+"890",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",10,"HA8 - CA7 < -1",21.894,31.506
+"891",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",10,"HA9 - CA8 < -1",21.894,31.506
+"892",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"893",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"894",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"895",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"HA4 - CA3 < -1",12.792,18.408
+"896",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"897",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"898",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"899",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"900",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"901",3,"6_MidriseApartment.xml.csv","ElectricEquipment","Core_bottom_Elevators_Equip","Design Level",32109.89011,22476.92,41742.86,"uniform","float",1,"",26330.108,37889.672
+"902",3,"6_MidriseApartment.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",14804,10362.8,19245.2,"uniform","float",2,"",12139.28,17468.72
+"903",3,"6_MidriseApartment.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"904",3,"6_MidriseApartment.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"905",3,"6_MidriseApartment.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"906",3,"6_MidriseApartment.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"907",3,"6_MidriseApartment.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"908",3,"6_MidriseApartment.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"909",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",5,"HA1 - CA1 < -1",21.894,31.506
+"910",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",6,"HA2 - CA2 < -1",19.68,28.32
+"911",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",7,"HA3 - CA3 < -1",21.894,31.506
+"912",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",26.7,18.69,34.71,"uniform","float",8,"HA5 - CA4 < -1",21.894,31.506
+"913",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 13",24,16.8,31.2,"uniform","float",6,"HA6 - CA5 < -1",19.68,28.32
+"914",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",9,"HA7 - CA6 < -1",21.894,31.506
+"915",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",10,"HA8 - CA7 < -1",21.894,31.506
+"916",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",10,"HA9 - CA8 < -1",21.894,31.506
+"917",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"918",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"919",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"920",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"HA4 - CA3 < -1",12.792,18.408
+"921",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"922",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"923",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"924",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"925",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"926",3,"6_MidriseApartment.xml.csv","ElectricEquipment","Office_PlugMisc_Equip","Watts per Zone Floor Area",12.9,9.03,16.77,"uniform","float",1,"",10.578,15.222
+"927",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G Corridor_Elevators_Equip","Design Level",16054.94505,11238.46,20871.43,"uniform","float",2,"",13165.054,18944.836
+"928",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",3,"",4.4116,6.3484
+"929",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",4,"",4.4116,6.3484
+"930",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"931",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"932",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"933",3,"6_MidriseApartment.xml.csv","ElectricEquipment","G S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"934",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"935",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"936",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M SE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"937",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"938",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M N1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"939",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"940",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"941",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"942",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"943",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"944",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T SE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"945",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"946",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T N1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"947",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"948",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"949",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"950",3,"6_MidriseApartment.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",5357,3875.9,7198.1,"uniform","float",8,"",4540.34,6533.66
+"951",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"952",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"953",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"954",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"955",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"956",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"957",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","G S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"958",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"959",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"960",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M SE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"961",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"962",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"963",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"964",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"965",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Velocity Squared Term Coefficient",0,0.000211,0.000393,"uniform","float",11,"",0.0002474,0.0003566
+"966",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"967",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"968",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"969",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T SE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"970",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"971",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"972",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"973",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"974",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","T S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"975",3,"8_PrimarySchool.xml.csv","ElectricEquipment","Core_bottom_Elevators_Equip","Design Level",32109.89011,22476.92,41742.86,"uniform","float",1,"",26330.108,37889.672
+"976",3,"8_PrimarySchool.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",14804,10362.8,19245.2,"uniform","float",2,"",12139.28,17468.72
+"977",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"978",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"979",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"980",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"981",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"982",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"983",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",5,"HA1 - CA1 < -1",21.894,31.506
+"984",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",6,"HA2 - CA2 < -1",19.68,28.32
+"985",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",7,"HA3 - CA3 < -1",21.894,31.506
+"986",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",26.7,18.69,34.71,"uniform","float",8,"HA5 - CA4 < -1",21.894,31.506
+"987",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 13",24,16.8,31.2,"uniform","float",6,"HA6 - CA5 < -1",19.68,28.32
+"988",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",9,"HA7 - CA6 < -1",21.894,31.506
+"989",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",10,"HA8 - CA7 < -1",21.894,31.506
+"990",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",10,"HA9 - CA8 < -1",21.894,31.506
+"991",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"992",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"993",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"994",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"HA4 - CA3 < -1",12.792,18.408
+"995",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"996",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"997",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"998",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"999",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"1000",3,"8_PrimarySchool.xml.csv","ElectricEquipment","Office_PlugMisc_Equip","Watts per Zone Floor Area",12.9,9.03,16.77,"uniform","float",1,"",10.578,15.222
+"1001",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G Corridor_Elevators_Equip","Design Level",16054.94505,11238.46,20871.43,"uniform","float",2,"",13165.054,18944.836
+"1002",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",3,"",4.4116,6.3484
+"1003",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",4,"",4.4116,6.3484
+"1004",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1005",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1006",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1007",3,"8_PrimarySchool.xml.csv","ElectricEquipment","G S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1008",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1009",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1010",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M SE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1011",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1012",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M N1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1013",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1014",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1015",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1016",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1017",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1018",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T SE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1019",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1020",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T N1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1021",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1022",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1023",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1024",3,"8_PrimarySchool.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",5357,3875.9,7198.1,"uniform","float",8,"",4540.34,6533.66
+"1025",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1026",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1027",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1028",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1029",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1030",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1031",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","G S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1032",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1033",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1034",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M SE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1035",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1036",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1037",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1038",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1039",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Velocity Squared Term Coefficient",0,0.000211,0.000393,"uniform","float",11,"",0.0002474,0.0003566
+"1040",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1041",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1042",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1043",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T SE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1044",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1045",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1046",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1047",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1048",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","T S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1049",3,"8_PrimarySchool.xml.csv","ElectricEquipment","Kitchen_ZN_1_FLR_1_ExhFan_Equip","Design Level",576,403.2,748.8,"uniform","float",1,"",472.32,679.68
+"1050",3,"8_PrimarySchool.xml.csv","ElectricEquipment","Kitchen_ZN_1_FLR_1_MiscElec_Equip","Design Level",31996,22397.2,41594.8,"uniform","float",1,"",26236.72,37755.28
+"1051",3,"8_PrimarySchool.xml.csv","GasEquipment","Kitchen_ZN_1_FLR_1_MiscGas_Equip","Design Level",160284,112198.8,208369.2,"uniform","float",2,"",131432.88,189135.12
+"1052",3,"8_PrimarySchool.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",8575,612.5,1137.5,"uniform","float",3,"",717.5,1032.5
+"1053",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_OTHER_Fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",4,"",0.48503,0.69797
+"1054",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_OTHER_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1055",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_OTHER_Fan","Motor Efficiency",0.91,0.637,0.99,"uniform","float",4,"",0.7076,0.9194
+"1056",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_1_Fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",4,"",0.48503,0.69797
+"1057",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_1_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1058",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_1_Fan","Motor Efficiency",0.91,0.637,0.99,"uniform","float",4,"",0.7076,0.9194
+"1059",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_2_Fan","Fan Efficiency",0.58175,0.407225,0.756275,"uniform","float",4,"",0.477035,0.686465
+"1060",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_2_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1061",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_2_Fan","Motor Efficiency",0.895,0.6265,0.999,"uniform","float",4,"",0.701,0.9245
+"1062",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_3_Fan","Fan Efficiency",0.58175,0.407225,0.756275,"uniform","float",4,"",0.477035,0.686465
+"1063",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_3_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1064",3,"8_PrimarySchool.xml.csv","Fan:VariableVolume","VAV_POD_3_Fan","Motor Efficiency",0.895,0.6265,0.999,"uniform","float",4,"",0.701,0.9245
+"1065",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:6_CoolC DXCoil","Rated COP",3.666684429,2.562,4.758,"uniform","float",6,"",3.0012,4.3188
+"1066",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:5_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",6,"",2.87,4.13
+"1067",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","PSZ-AC_2:7_CoolC DXCoil","Rated High Speed COP",3.300330385,2.31,4.29,"uniform","float",7,"",2.706,3.894
+"1068",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_OTHER_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1069",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_OTHER_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1070",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1071",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_1_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1072",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1073",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_2_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1074",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1075",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_3_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1076",3,"8_PrimarySchool.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.75,0.525,0.975,"uniform","float",9,"",0.615,0.885
+"1077",3,"8_PrimarySchool.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",10,"",67.404,96.996
+"1078",3,"8_PrimarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",1,0.7,1.3,"uniform","float",11,"",0.82,1.18
+"1079",3,"8_PrimarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",12,"",692900,997100
+"1080",3,"8_PrimarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"1081",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Core_bottom_Elevators_Equip","Design Level",32109.89011,22476.92,41742.86,"uniform","float",1,"",26330.108,37889.672
+"1082",3,"9_QuickServiceRestaurant.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",14804,10362.8,19245.2,"uniform","float",2,"",12139.28,17468.72
+"1083",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"1084",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_1_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"1085",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"1086",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_2_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"1087",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.261,4.199,"uniform","float",3,"",2.6486,3.8114
+"1088",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_3_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",4,"",2.6896,3.8704
+"1089",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",5,"HA1 - CA1 < -1",21.894,31.506
+"1090",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",6,"HA2 - CA2 < -1",19.68,28.32
+"1091",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",7,"HA3 - CA3 < -1",21.894,31.506
+"1092",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",26.7,18.69,34.71,"uniform","float",8,"HA5 - CA4 < -1",21.894,31.506
+"1093",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 13",24,16.8,31.2,"uniform","float",6,"HA6 - CA5 < -1",19.68,28.32
+"1094",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",9,"HA7 - CA6 < -1",21.894,31.506
+"1095",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",10,"HA8 - CA7 < -1",21.894,31.506
+"1096",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",10,"HA9 - CA8 < -1",21.894,31.506
+"1097",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"1098",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"1099",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"1100",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",15.6,10.92,20.28,"uniform","float",11,"HA4 - CA3 < -1",12.792,18.408
+"1101",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"1102",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"1103",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"1104",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 21",21,14.7,27.3,"uniform","float",12,"",17.22,24.78
+"1105",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",11,"",12.792,18.408
+"1106",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Office_PlugMisc_Equip","Watts per Zone Floor Area",12.9,9.03,16.77,"uniform","float",1,"",10.578,15.222
+"1107",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G Corridor_Elevators_Equip","Design Level",16054.94505,11238.46,20871.43,"uniform","float",2,"",13165.054,18944.836
+"1108",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",3,"",4.4116,6.3484
+"1109",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",4,"",4.4116,6.3484
+"1110",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1111",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1112",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1113",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","G S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",5,"",4.4116,6.3484
+"1114",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1115",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1116",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M SE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1117",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1118",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M N1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1119",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1120",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1121",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",6,"",4.4116,6.3484
+"1122",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1123",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T NW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1124",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T SE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1125",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T NE Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1126",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T N1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1127",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1128",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1129",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",7,"",4.4116,6.3484
+"1130",3,"9_QuickServiceRestaurant.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",5357,3875.9,7198.1,"uniform","float",8,"",4540.34,6533.66
+"1131",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1132",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1133",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1134",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1135",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1136",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1137",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","G S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",9,"",0.0002474,0.0003566
+"1138",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1139",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1140",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M SE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1141",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1142",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1143",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1144",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1145",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Velocity Squared Term Coefficient",0,0.000211,0.000393,"uniform","float",11,"",0.0002474,0.0003566
+"1146",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",10,"",0.0002474,0.0003566
+"1147",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T SW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1148",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T NW Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1149",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T SE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1150",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T NE Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1151",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T N1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1152",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T N2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1153",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T S1 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1154",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","T S2 Apartment_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",12,"",0.0002474,0.0003566
+"1155",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Kitchen_ZN_1_FLR_1_ExhFan_Equip","Design Level",576,403.2,748.8,"uniform","float",1,"",472.32,679.68
+"1156",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Kitchen_ZN_1_FLR_1_MiscElec_Equip","Design Level",31996,22397.2,41594.8,"uniform","float",1,"",26236.72,37755.28
+"1157",3,"9_QuickServiceRestaurant.xml.csv","GasEquipment","Kitchen_ZN_1_FLR_1_MiscGas_Equip","Design Level",160284,112198.8,208369.2,"uniform","float",2,"",131432.88,189135.12
+"1158",3,"9_QuickServiceRestaurant.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",8575,612.5,1137.5,"uniform","float",3,"",717.5,1032.5
+"1159",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_OTHER_Fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",4,"",0.48503,0.69797
+"1160",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_OTHER_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1161",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_OTHER_Fan","Motor Efficiency",0.91,0.637,0.99,"uniform","float",4,"",0.7076,0.9194
+"1162",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_1_Fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",4,"",0.48503,0.69797
+"1163",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_1_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1164",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_1_Fan","Motor Efficiency",0.91,0.637,0.99,"uniform","float",4,"",0.7076,0.9194
+"1165",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_2_Fan","Fan Efficiency",0.58175,0.407225,0.756275,"uniform","float",4,"",0.477035,0.686465
+"1166",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_2_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1167",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_2_Fan","Motor Efficiency",0.895,0.6265,0.999,"uniform","float",4,"",0.701,0.9245
+"1168",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_3_Fan","Fan Efficiency",0.58175,0.407225,0.756275,"uniform","float",4,"",0.477035,0.686465
+"1169",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_3_Fan","Pressure Rise",1109.648,776.7536,1442.542,"uniform","float",5,"",909.91128,1309.38432
+"1170",3,"9_QuickServiceRestaurant.xml.csv","Fan:VariableVolume","VAV_POD_3_Fan","Motor Efficiency",0.895,0.6265,0.999,"uniform","float",4,"",0.701,0.9245
+"1171",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:6_CoolC DXCoil","Rated COP",3.666684429,2.562,4.758,"uniform","float",6,"",3.0012,4.3188
+"1172",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:5_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",6,"",2.87,4.13
+"1173",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","PSZ-AC_2:7_CoolC DXCoil","Rated High Speed COP",3.300330385,2.31,4.29,"uniform","float",7,"",2.706,3.894
+"1174",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_OTHER_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1175",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_OTHER_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1176",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1177",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_1_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1178",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1179",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_2_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1180",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"1181",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_3_CoolC DXCoil","Rated Low Speed COP",3.281865281,2.296,4.264,"uniform","float",8,"",2.6896,3.8704
+"1182",3,"9_QuickServiceRestaurant.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.75,0.525,0.975,"uniform","float",9,"",0.615,0.885
+"1183",3,"9_QuickServiceRestaurant.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",10,"",67.404,96.996
+"1184",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",1,0.7,1.3,"uniform","float",11,"",0.82,1.18
+"1185",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",12,"",692900,997100
+"1186",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"1187",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Dining_MiscElec_Equip","Design Level",15000,10500,19500,"uniform","float",1,"",12300,17700
+"1188",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Kitchen_MiscElec_Equip","Design Level",35000,24500,45500,"uniform","float",1,"",28700,41300
+"1189",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","Kitchen_ExhFan_Equip","Design Level",577,403.9,750.1,"uniform","float",1,"",473.14,680.86
+"1190",3,"9_QuickServiceRestaurant.xml.csv","GasEquipment","Kitchen_MiscGas_Equip","Design Level",150055,105038.5,195071.5,"uniform","float",2,"",123045.1,177064.9
+"1191",3,"9_QuickServiceRestaurant.xml.csv","Fan:ConstantVolume","PSZ-AC_1:1_Fan","Fan Efficiency",0.546,0.3822,0.7098,"uniform","float",3,"",0.44772,0.64428
+"1192",3,"9_QuickServiceRestaurant.xml.csv","Fan:ConstantVolume","PSZ-AC_1:1_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",4,"",510.04,733.96
+"1193",3,"9_QuickServiceRestaurant.xml.csv","Fan:ConstantVolume","PSZ-AC_1:1_Fan","Motor Efficiency",0.84,0.588,0.999,"uniform","float",3,"",0.6702,0.9168
+"1194",3,"9_QuickServiceRestaurant.xml.csv","Fan:ConstantVolume","PSZ-AC_2:2_Fan","Fan Efficiency",0.546,0.3822,0.7098,"uniform","float",3,"",0.44772,0.64428
+"1195",3,"9_QuickServiceRestaurant.xml.csv","Fan:ConstantVolume","PSZ-AC_2:2_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",4,"",510.04,733.96
+"1196",3,"9_QuickServiceRestaurant.xml.csv","Fan:ConstantVolume","PSZ-AC_2:2_Fan","Motor Efficiency",0.84,0.588,0.999,"uniform","float",3,"",0.6702,0.9168
+"1197",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","PSZ-AC_1:1_CoolC DXCoil","Rated High Speed COP",3.500159864,2.45,4.55,"uniform","float",5,"",2.87,4.13
+"1198",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","PSZ-AC_1:1_CoolC DXCoil","Rated Low Speed COP",3.552271425,2.4864,4.6176,"uniform","float",5,"",2.91264,4.19136
+"1199",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:2_CoolC DXCoil","Rated COP",3.666684429,2.56676,4.76668,"uniform","float",6,"",3.006744,4.326696
+"1200",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 4",30,21,39,"uniform","float",7,"HA2 - CA1 < -1",24.6,35.4
+"1201",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 7",26,18.2,33.8,"uniform","float",7,"HA3 - CA2 < -1",21.32,30.68
+"1202",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 9",30,21,39,"uniform","float",7,"HA4 - CA3 < -1",24.6,35.4
+"1203",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_KITCHEN_SCH","Field 11",26,18.2,33.8,"uniform","float",7,"HA5 - CA4 < -1",21.32,30.68
+"1204",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 4",15.6,10.92,20.28,"uniform","float",8,"",12.792,18.408
+"1205",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 7",19,13.3,27.7,"uniform","float",8,"",16.18,24.82
+"1206",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 10",19,13.3,27.7,"uniform","float",8,"",16.18,24.82
+"1207",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 12",15.6,10.92,20.28,"uniform","float",8,"",12.792,18.408
+"1208",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 14",19,13.3,27.7,"uniform","float",8,"",16.18,24.82
+"1209",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",30,21,39,"uniform","float",7,"HB2 - CB1 < -1",24.6,35.4
+"1210",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 7",24,16.8,31.2,"uniform","float",7,"HB3 - CB2 < -1",19.68,28.32
+"1211",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 9",30,21,39,"uniform","float",7,"HB4 - CB3 < -1",24.6,35.4
+"1212",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",24,16.8,31.2,"uniform","float",7,"HB5 - CB4 < -1",19.68,28.32
+"1213",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 4",15.6,10.92,20.28,"uniform","float",8,"",12.792,18.408
+"1214",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 7",21,14.7,27.3,"uniform","float",8,"",17.22,24.78
+"1215",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 10",21,14.7,27.3,"uniform","float",8,"",17.22,24.78
+"1216",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 12",15.6,10.92,20.28,"uniform","float",8,"",12.792,18.408
+"1217",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",21,14.7,27.3,"uniform","float",8,"",17.22,24.78
+"1218",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",9,"",0.82,1.18
+"1219",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",0,0,0.3,"exponential","float",9,"",0.06,0.24
+"1220",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",1,0.7,1.3,"uniform","float",9,"",0.82,1.18
+"1221",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",0.2,0.14,0.26,"uniform","float",10,"",0.164,0.236
+"1222",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Maximum Temperature Limit",82.2222,57.54,106.86,"uniform","float",11,"",67.404,96.996
+"1223",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"1224",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",11,"",0.6478,0.9112
+"1225",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","SWHSys1 Water Heater Setpoint Temperature Schedule Name","Field 4",60,42,78,"uniform","float",12,"",49.2,70.8
+"1226",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",12,"",49.2,70.8

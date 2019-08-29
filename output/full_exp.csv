@@ -1,0 +1,264 @@
+"","comm.rank..","file","Class","Object","Field","Default","Minimum","Maximum","Distribution","Type","Group","Constraint","p20","p80"
+"1",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",1,"HB1 - CB1 < -1",22.14,31.86
+"2",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",2,"HB3 - CB3 < -1",22.14,31.86
+"3",0,"10_SecondarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",3,"HB4 - CB4 < -1",22.14,31.86
+"4",0,"10_SecondarySchool.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",4,"",10.496,15.104
+"5",0,"10_SecondarySchool.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",5,"",0.123,0.177
+"6",0,"10_SecondarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",6,"",2.46,3.54
+"7",0,"10_SecondarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",7,"",692900,997100
+"8",0,"10_SecondarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",8,"",0.6478,0.9112
+"9",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",1,"HB1 - CB1 < -1",22.14,31.86
+"10",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",2,"HB3 - CB3 < -1",22.14,31.86
+"11",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",3,"HB4 - CB4 < -1",22.14,31.86
+"12",0,"11_SmallHotel.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",4,"",10.496,15.104
+"13",0,"11_SmallHotel.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",5,"",0.123,0.177
+"14",0,"11_SmallHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",6,"",2.46,3.54
+"15",0,"11_SmallHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",7,"",692900,997100
+"16",0,"11_SmallHotel.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",8,"",0.6478,0.9112
+"17",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:11_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",1,"",3.00694,4.32706
+"18",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:12_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",2,"",3.00694,4.32706
+"19",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:1_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",3,"",3.00694,4.32706
+"20",0,"11_SmallHotel.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:2_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"21",0,"11_SmallHotel.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",5,"HA1 - CA1 < -1",19.68,28.32
+"22",0,"11_SmallHotel.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",6,"",0.82,1.18
+"23",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",1,"HB1 - CB1 < -1",22.14,31.86
+"24",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",2,"HB3 - CB3 < -1",22.14,31.86
+"25",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",3,"HB4 - CB4 < -1",22.14,31.86
+"26",0,"12_SmallOffice.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",4,"",10.496,15.104
+"27",0,"12_SmallOffice.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",5,"",0.123,0.177
+"28",0,"12_SmallOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",6,"",2.46,3.54
+"29",0,"12_SmallOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",7,"",692900,997100
+"30",0,"12_SmallOffice.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",8,"",0.6478,0.9112
+"31",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:11_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",1,"",3.00694,4.32706
+"32",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:12_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",2,"",3.00694,4.32706
+"33",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:1_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",3,"",3.00694,4.32706
+"34",0,"12_SmallOffice.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:2_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"35",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",5,"HA1 - CA1 < -1",19.68,28.32
+"36",0,"12_SmallOffice.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",6,"",0.82,1.18
+"37",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",1,"",0.6478,0.9112
+"38",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",2,"",0.6478,0.9112
+"39",0,"12_SmallOffice.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"40",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",4,"HA1 - CA1 < -1",21.894,31.506
+"41",0,"12_SmallOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",5,"HA6 - CA6 < -1",21.894,31.506
+"42",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"43",0,"12_SmallOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 15",15.6,10.92,20.28,"uniform","float",7,"",12.792,18.408
+"44",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 4",27,18.9,35.1,"uniform","float",1,"HB1 - CB1 < -1",22.14,31.86
+"45",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 8",27,18.9,35.1,"uniform","float",2,"HB3 - CB3 < -1",22.14,31.86
+"46",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH_BathCorrMechKitchen","Field 11",27,18.9,35.1,"uniform","float",3,"HB4 - CB4 < -1",22.14,31.86
+"47",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",12.8,8.96,16.64,"uniform","float",4,"",10.496,15.104
+"48",0,"13_Stand-aloneRetail.xml.csv","Chiller:Electric:EIR","CoolSys1 Chiller","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",5,"",0.123,0.177
+"49",0,"13_Stand-aloneRetail.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",3,2.1,3.9,"uniform","float",6,"",2.46,3.54
+"50",0,"13_Stand-aloneRetail.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",7,"",692900,997100
+"51",0,"13_Stand-aloneRetail.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",8,"",0.6478,0.9112
+"52",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:11_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",1,"",3.00694,4.32706
+"53",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:12_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",2,"",3.00694,4.32706
+"54",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:1_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",3,"",3.00694,4.32706
+"55",0,"13_Stand-aloneRetail.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-HEATCOOL:2_CoolC DXCoil","Rated COP",3.666684429,2.5669,4.7671,"uniform","float",4,"",3.00694,4.32706
+"56",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",5,"HA1 - CA1 < -1",19.68,28.32
+"57",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",6,"",0.82,1.18
+"58",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:2_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",1,"",0.6478,0.9112
+"59",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:4_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",2,"",0.6478,0.9112
+"60",0,"13_Stand-aloneRetail.xml.csv","Coil:Heating:Gas","PSZ-AC:5_HeatC","Gas Burner Efficiency",0.8,0.56,0.999,"uniform","float",3,"",0.6478,0.9112
+"61",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 4",26.7,18.69,34.71,"uniform","float",4,"HA1 - CA1 < -1",21.894,31.506
+"62",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",5,"HA6 - CA6 < -1",21.894,31.506
+"63",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 8",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"64",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 15",15.6,10.92,20.28,"uniform","float",7,"",12.792,18.408
+"65",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",21,14.7,27.3,"uniform","float",1,"",17.22,24.78
+"66",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 17",15.6,10.92,20.28,"uniform","float",2,"",12.792,18.408
+"67",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 19",21,14.7,27.3,"uniform","float",3,"",17.22,24.78
+"68",0,"13_Stand-aloneRetail.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 26",21,14.7,27.3,"uniform","float",4,"",17.22,24.78
+"69",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",1,"",0.06,0.24
+"70",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",2,"",0.06,0.24
+"71",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",3,"",0.06,0.24
+"72",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",4,"",0.06,0.24
+"73",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",5,"",0.06,0.24
+"74",1,"14_StripMall.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"75",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",1,"",0.06,0.24
+"76",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",2,"",0.06,0.24
+"77",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",3,"",0.06,0.24
+"78",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",4,"",0.06,0.24
+"79",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",5,"",0.06,0.24
+"80",1,"15_SuperMarket.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"81",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Deli_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"82",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","DryStorage_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"83",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Office_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"84",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Produce_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"85",1,"15_SuperMarket.xml.csv","ZoneInfiltration:DesignFlowRate","Sales_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"86",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKA","Design Condenser Fan Power",4500,3150,5850,"uniform","float",6,"",3690,5310
+"87",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKB","Design Condenser Fan Power",4500,3150,5850,"uniform","float",7,"",3690,5310
+"88",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKD","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",8,"",1.066,1.534
+"89",1,"15_SuperMarket.xml.csv","Refrigeration:CompressorRack","RACKD","Design Condenser Fan Power",4500,3150,5850,"uniform","float",9,"",3690,5310
+"90",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",1,"",0.06,0.24
+"91",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",2,"",0.06,0.24
+"92",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",3,"",0.06,0.24
+"93",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",4,"",0.06,0.24
+"94",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",5,"",0.06,0.24
+"95",1,"16_Warehouse.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"96",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Deli_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"97",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","DryStorage_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"98",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Office_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"99",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Produce_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"100",1,"16_Warehouse.xml.csv","ZoneInfiltration:DesignFlowRate","Sales_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"101",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKA","Design Condenser Fan Power",4500,3150,5850,"uniform","float",6,"",3690,5310
+"102",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKB","Design Condenser Fan Power",4500,3150,5850,"uniform","float",7,"",3690,5310
+"103",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKD","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",8,"",1.066,1.534
+"104",1,"16_Warehouse.xml.csv","Refrigeration:CompressorRack","RACKD","Design Condenser Fan Power",4500,3150,5850,"uniform","float",9,"",3690,5310
+"105",1,"16_Warehouse.xml.csv","Coil:Cooling:DX:SingleSpeed","FURNACE_PACU_CAV_2:2_Unitary_Package_CoolCoil","Rated COP",3.233720558,2.261,4.199,"uniform","float",1,"",2.6486,3.8114
+"106",1,"16_Warehouse.xml.csv","Schedule:Compact","CLGSETP_FineStorage_SCH","Field 4",26.7,18.69,34.71,"uniform","float",2,"HA1 - CA1 < -1",21.894,31.506
+"107",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_FineStorage_SCH","Field 4",15.6,10.92,20.28,"uniform","float",3,"",12.792,18.408
+"108",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",4,"",17.22,24.78
+"109",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",21,14.7,27.3,"uniform","float",5,"",17.22,24.78
+"110",1,"16_Warehouse.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",6,"",17.22,24.78
+"111",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",1,"",0.06,0.24
+"112",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",0,0,0.3,"exponential","float",2,"",0.06,0.24
+"113",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 11",0,0,0.3,"exponential","float",3,"",0.06,0.24
+"114",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 15",0,0,0.3,"exponential","float",4,"",0.06,0.24
+"115",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 18",0,0,0.3,"exponential","float",5,"",0.06,0.24
+"116",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 22",0,0,0.3,"exponential","float",6,"",0.06,0.24
+"117",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Deli_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"118",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","DryStorage_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"119",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Office_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"120",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Produce_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"121",1,"1_FullServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","Sales_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",5,"",0.0002474,0.0003566
+"122",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKA","Design Condenser Fan Power",4500,3150,5850,"uniform","float",6,"",3690,5310
+"123",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKB","Design Condenser Fan Power",4500,3150,5850,"uniform","float",7,"",3690,5310
+"124",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKD","Design Compressor Rack COP",1.3,0.91,1.69,"uniform","float",8,"",1.066,1.534
+"125",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACKD","Design Condenser Fan Power",4500,3150,5850,"uniform","float",9,"",3690,5310
+"126",1,"1_FullServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","FURNACE_PACU_CAV_2:2_Unitary_Package_CoolCoil","Rated COP",3.233720558,2.261,4.199,"uniform","float",1,"",2.6486,3.8114
+"127",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_FineStorage_SCH","Field 4",26.7,18.69,34.71,"uniform","float",2,"HA1 - CA1 < -1",21.894,31.506
+"128",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_FineStorage_SCH","Field 4",15.6,10.92,20.28,"uniform","float",3,"",12.792,18.408
+"129",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",4,"",17.22,24.78
+"130",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 11",21,14.7,27.3,"uniform","float",5,"",17.22,24.78
+"131",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 16",21,14.7,27.3,"uniform","float",6,"",17.22,24.78
+"132",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 4",15.6,10.92,20.28,"uniform","float",1,"",12.792,18.408
+"133",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_KITCHEN_SCH","Field 12",15.6,10.92,20.28,"uniform","float",2,"",12.792,18.408
+"134",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 11",24,16.8,31.2,"uniform","float",3,"HB5 - CB4 < -1",19.68,28.32
+"135",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 12",15.6,10.92,20.28,"uniform","float",4,"",12.792,18.408
+"136",1,"1_FullServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",1,0.7,1.3,"uniform","float",5,"",0.82,1.18
+"137",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK1","Design Compressor Rack COP",1.5,1.05,1.95,"uniform","float",6,"",1.23,1.77
+"138",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK1","Design Condenser Fan Power",330,231,429,"uniform","float",7,"",270.6,389.4
+"139",1,"1_FullServiceRestaurant.xml.csv","Refrigeration:CompressorRack","RACK2","Design Condenser Fan Power",330,231,429,"uniform","float",8,"",270.6,389.4
+"140",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 11",18.3,12.81,23.79,"uniform","float",1,"",15.006,21.594
+"141",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 15",18.3,12.81,23.79,"uniform","float",2,"",15.006,21.594
+"142",2,"2_Hospital.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 22",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"143",2,"2_Hospital.xml.csv","Schedule:Compact","CRITICAL_HTGSETP_SCH","Field 4",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"144",2,"2_Hospital.xml.csv","Schedule:Compact","OR_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"145",2,"2_Hospital.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",6,"",147068.64,211635.36
+"146",2,"2_Hospital.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",7,"",147068.64,211635.36
+"147",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 11",18.3,12.81,23.79,"uniform","float",1,"",15.006,21.594
+"148",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 15",18.3,12.81,23.79,"uniform","float",2,"",15.006,21.594
+"149",2,"3_LargeHotel.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 22",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"150",2,"3_LargeHotel.xml.csv","Schedule:Compact","CRITICAL_HTGSETP_SCH","Field 4",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"151",2,"3_LargeHotel.xml.csv","Schedule:Compact","OR_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"152",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",6,"",147068.64,211635.36
+"153",2,"3_LargeHotel.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",7,"",147068.64,211635.36
+"154",2,"3_LargeHotel.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.78,0.546,0.99,"uniform","float",1,"",0.6348,0.9012
+"155",2,"3_LargeHotel.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",2,"",67.404,96.996
+"156",2,"3_LargeHotel.xml.csv","Schedule:Compact","CW-Loop-Temp-Schedule","Field 4",6.7,4.69,8.71,"uniform","float",3,"",5.494,7.906
+"157",2,"3_LargeHotel.xml.csv","Schedule:Compact","HW-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",4,"",49.2,70.8
+"158",2,"3_LargeHotel.xml.csv","Schedule:Compact","Guest Room Water Equipment Hot Supply Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",5,"",35.26,50.74
+"159",2,"3_LargeHotel.xml.csv","Schedule:Compact","Guest Room Water Equipment Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",6,"",35.26,50.74
+"160",2,"3_LargeHotel.xml.csv","Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",7,"",49.2,70.8
+"161",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 11",18.3,12.81,23.79,"uniform","float",1,"",15.006,21.594
+"162",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 15",18.3,12.81,23.79,"uniform","float",2,"",15.006,21.594
+"163",2,"4_LargeOffice.xml.csv","Schedule:Compact","ADMIN_HTGSETP_SCH","Field 22",18.3,12.81,23.79,"uniform","float",3,"",15.006,21.594
+"164",2,"4_LargeOffice.xml.csv","Schedule:Compact","CRITICAL_HTGSETP_SCH","Field 4",21.1,14.77,27.43,"uniform","float",4,"",17.302,24.898
+"165",2,"4_LargeOffice.xml.csv","Schedule:Compact","OR_HTGSETP_SCH","Field 4",18.3,12.81,23.79,"uniform","float",5,"",15.006,21.594
+"166",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",6,"",147068.64,211635.36
+"167",2,"4_LargeOffice.xml.csv","Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",7,"",147068.64,211635.36
+"168",2,"4_LargeOffice.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.78,0.546,0.99,"uniform","float",1,"",0.6348,0.9012
+"169",2,"4_LargeOffice.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",2,"",67.404,96.996
+"170",2,"4_LargeOffice.xml.csv","Schedule:Compact","CW-Loop-Temp-Schedule","Field 4",6.7,4.69,8.71,"uniform","float",3,"",5.494,7.906
+"171",2,"4_LargeOffice.xml.csv","Schedule:Compact","HW-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",4,"",49.2,70.8
+"172",2,"4_LargeOffice.xml.csv","Schedule:Compact","Guest Room Water Equipment Hot Supply Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",5,"",35.26,50.74
+"173",2,"4_LargeOffice.xml.csv","Schedule:Compact","Guest Room Water Equipment Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",6,"",35.26,50.74
+"174",2,"4_LargeOffice.xml.csv","Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",7,"",49.2,70.8
+"175",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",1,"",0.0002474,0.0003566
+"176",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_2_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",2,"",0.0002474,0.0003566
+"177",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",3,"",0.0002474,0.0003566
+"178",2,"4_LargeOffice.xml.csv","ZoneInfiltration:DesignFlowRate","Perimeter_top_ZN_4_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,"",0.0002474,0.0003566
+"179",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_1_Fan","Fan Efficiency",0.6045,0.042315,0.078585,"uniform","float",5,"",0.049569,0.071331
+"180",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_1_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",6,"",834.42552,1200.75888
+"181",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_2_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",7,"",834.42552,1200.75888
+"182",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_3_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",8,"",834.42552,1200.75888
+"183",2,"4_LargeOffice.xml.csv","Fan:VariableVolume","VAV_5_Fan","Fan Efficiency",0.5915,0.41405,0.76895,"uniform","float",9,"",0.48503,0.69797
+"184",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",1,"HA3 - CA3 < -1",21.894,31.506
+"185",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",2,"HA7 - CA6 < -1",21.894,31.506
+"186",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",3,"HA8 - CA7 < -1",21.894,31.506
+"187",3,"5_MediumOffice.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",4,"HA9 - CA8 < -1",21.894,31.506
+"188",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",5,"",12.792,18.408
+"189",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"190",3,"5_MediumOffice.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",7,"",12.792,18.408
+"191",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",1,"HA3 - CA3 < -1",21.894,31.506
+"192",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",2,"HA7 - CA6 < -1",21.894,31.506
+"193",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",3,"HA8 - CA7 < -1",21.894,31.506
+"194",3,"6_MidriseApartment.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",4,"HA9 - CA8 < -1",21.894,31.506
+"195",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",5,"",12.792,18.408
+"196",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"197",3,"6_MidriseApartment.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",7,"",12.792,18.408
+"198",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",1,"",4.4116,6.3484
+"199",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"200",3,"6_MidriseApartment.xml.csv","ElectricEquipment","M S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",3,"",4.4116,6.3484
+"201",3,"6_MidriseApartment.xml.csv","ElectricEquipment","T SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",4,"",4.4116,6.3484
+"202",3,"6_MidriseApartment.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",5357,3875.9,7198.1,"uniform","float",5,"",4540.34,6533.66
+"203",3,"6_MidriseApartment.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Velocity Squared Term Coefficient",0,0.000211,0.000393,"uniform","float",6,"",0.0002474,0.0003566
+"204",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",1,"HA3 - CA3 < -1",21.894,31.506
+"205",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",2,"HA7 - CA6 < -1",21.894,31.506
+"206",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",3,"HA8 - CA7 < -1",21.894,31.506
+"207",3,"8_PrimarySchool.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",4,"HA9 - CA8 < -1",21.894,31.506
+"208",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",5,"",12.792,18.408
+"209",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"210",3,"8_PrimarySchool.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",7,"",12.792,18.408
+"211",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",1,"",4.4116,6.3484
+"212",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"213",3,"8_PrimarySchool.xml.csv","ElectricEquipment","M S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",3,"",4.4116,6.3484
+"214",3,"8_PrimarySchool.xml.csv","ElectricEquipment","T SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",4,"",4.4116,6.3484
+"215",3,"8_PrimarySchool.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",5357,3875.9,7198.1,"uniform","float",5,"",4540.34,6533.66
+"216",3,"8_PrimarySchool.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Velocity Squared Term Coefficient",0,0.000211,0.000393,"uniform","float",6,"",0.0002474,0.0003566
+"217",3,"8_PrimarySchool.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",8575,612.5,1137.5,"uniform","float",1,"",717.5,1032.5
+"218",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:6_CoolC DXCoil","Rated COP",3.666684429,2.562,4.758,"uniform","float",2,"",3.0012,4.3188
+"219",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:5_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",3,"",2.87,4.13
+"220",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","PSZ-AC_2:7_CoolC DXCoil","Rated High Speed COP",3.300330385,2.31,4.29,"uniform","float",4,"",2.706,3.894
+"221",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_OTHER_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",5,"",2.648,3.812
+"222",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",6,"",2.648,3.812
+"223",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"224",3,"8_PrimarySchool.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",8,"",2.648,3.812
+"225",3,"8_PrimarySchool.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.75,0.525,0.975,"uniform","float",9,"",0.615,0.885
+"226",3,"8_PrimarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",1,0.7,1.3,"uniform","float",10,"",0.82,1.18
+"227",3,"8_PrimarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"228",3,"8_PrimarySchool.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"229",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 8",26.7,18.69,34.71,"uniform","float",1,"HA3 - CA3 < -1",21.894,31.506
+"230",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 15",26.7,18.69,34.71,"uniform","float",2,"HA7 - CA6 < -1",21.894,31.506
+"231",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 18",26.7,18.69,34.71,"uniform","float",3,"HA8 - CA7 < -1",21.894,31.506
+"232",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","CLGSETP_SCH","Field 21",26.7,18.69,34.71,"uniform","float",4,"HA9 - CA8 < -1",21.894,31.506
+"233",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 14",15.6,10.92,20.28,"uniform","float",5,"",12.792,18.408
+"234",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 18",15.6,10.92,20.28,"uniform","float",6,"",12.792,18.408
+"235",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","HTGSETP_SCH","Field 24",15.6,10.92,20.28,"uniform","float",7,"",12.792,18.408
+"236",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M N2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",1,"",4.4116,6.3484
+"237",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M S1 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,"",4.4116,6.3484
+"238",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","M S2 Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",3,"",4.4116,6.3484
+"239",3,"9_QuickServiceRestaurant.xml.csv","ElectricEquipment","T SW Apartment_PlugMisc_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",4,"",4.4116,6.3484
+"240",3,"9_QuickServiceRestaurant.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",5357,3875.9,7198.1,"uniform","float",5,"",4540.34,6533.66
+"241",3,"9_QuickServiceRestaurant.xml.csv","ZoneInfiltration:DesignFlowRate","M S1 Apartment_Infiltration","Velocity Squared Term Coefficient",0,0.000211,0.000393,"uniform","float",6,"",0.0002474,0.0003566
+"242",3,"9_QuickServiceRestaurant.xml.csv","Exterior:Lights","Exterior Facade Lighting","Design Level",8575,612.5,1137.5,"uniform","float",1,"",717.5,1032.5
+"243",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_1:6_CoolC DXCoil","Rated COP",3.666684429,2.562,4.758,"uniform","float",2,"",3.0012,4.3188
+"244",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:5_CoolC DXCoil","Rated COP",3.500159864,2.45,4.55,"uniform","float",3,"",2.87,4.13
+"245",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","PSZ-AC_2:7_CoolC DXCoil","Rated High Speed COP",3.300330385,2.31,4.29,"uniform","float",4,"",2.706,3.894
+"246",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_OTHER_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",5,"",2.648,3.812
+"247",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_1_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",6,"",2.648,3.812
+"248",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_2_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",7,"",2.648,3.812
+"249",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:TwoSpeed","VAV_POD_3_CoolC DXCoil","Rated High Speed COP",3.233720558,2.26,4.2,"uniform","float",8,"",2.648,3.812
+"250",3,"9_QuickServiceRestaurant.xml.csv","Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.75,0.525,0.975,"uniform","float",9,"",0.615,0.885
+"251",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",1,0.7,1.3,"uniform","float",10,"",0.82,1.18
+"252",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",11,"",692900,997100
+"253",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",12,"",0.6478,0.9112
+"254",3,"9_QuickServiceRestaurant.xml.csv","Coil:Cooling:DX:SingleSpeed","PSZ-AC_2:2_CoolC DXCoil","Rated COP",3.666684429,2.56676,4.76668,"uniform","float",1,"",3.006744,4.326696
+"255",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 4",1,0.7,1.3,"uniform","float",2,"",0.82,1.18
+"256",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 6",0,0,0.3,"exponential","float",3,"",0.06,0.24
+"257",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","MinOA_Sched","Field 8",1,0.7,1.3,"uniform","float",4,"",0.82,1.18
+"258",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",0.2,0.14,0.26,"uniform","float",5,"",0.164,0.236
+"259",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Maximum Temperature Limit",82.2222,57.54,106.86,"uniform","float",6,"",67.404,96.996
+"260",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",7,"",692900,997100
+"261",3,"9_QuickServiceRestaurant.xml.csv","WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",8,"",0.6478,0.9112
+"262",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","SWHSys1 Water Heater Setpoint Temperature Schedule Name","Field 4",60,42,78,"uniform","float",9,"",49.2,70.8
+"263",3,"9_QuickServiceRestaurant.xml.csv","Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",10,"",49.2,70.8
