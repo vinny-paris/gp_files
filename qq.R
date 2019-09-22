@@ -1,4 +1,4 @@
-source("./exper.R")
+source("./pbdr_all_corrected.R")
 
 dir <- "./prac_params"
 
@@ -44,29 +44,28 @@ set.seed(10)
   h333 <- NULL
   h444 <- NULL
   result <- NULL
-  for (name in files[[comm.rank()+1]]) {
-    data <- fread(paste0(dir, "/", name))
+  for (file in files[[comm.rank()+1]]) {
+    data <- fread(paste0(dir, "/", file))
     holding <- grouping_wrapper(data = data, num_of_groups = num_of_groups, 
                             new_groups = new_groups, fractional_report = fractional_report, 
-                            groups_interest = groups_interest, fields_interest = fields_interest,
-			    name = name)
+                            groups_interest = groups_interest, fields_interest = fields_interest)
 h1 <- rbind(h1, holding[[1]])
 h2 <- rbind(h2, holding[[2]])
 h3 <- rbind(h3, holding[[3]])
 h4 <- rbind(h4, holding[[4]])
 
 
-h11 <- cbind(name, h1)
-h22 <- cbind(name, h2)
-h33 <- cbind(name, h3)
-h44 <- cbind(name, h4)
+h11 <- cbind(file, h1)
+h22 <- cbind(file, h2)
+h33 <- cbind(file, h3)
+h44 <- cbind(file, h4)
 
 h111 <- rbind(h111, h11)
 h222 <- rbind(h222, h22)
 h333 <- rbind(h333, h33)
 h444 <- rbind(h444, h44)
 
-cat("\n", "\n", "\n", comm.rank(), name, "finished", "\n", "\n", "\n")
+cat("\n", "\n", "\n", comm.rank(), file, "finished", "\n", "\n", "\n")
 }
 
 
