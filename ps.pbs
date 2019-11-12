@@ -2,7 +2,7 @@
 #PBS -N prace
 #PBS -M reid.paris@maine.edu
 #PBS -l nodes=4:ppn=32
-#PBS -l walltime=0:0:20:0
+#PBS -l walltime=20:0
 #PBS -W group_list=cades-ccsd
 #PBS -A ccsd
 #PBS -q batch

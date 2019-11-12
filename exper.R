@@ -26,7 +26,7 @@ make_design <- function(data_summary, name = name, it = it){
   exp_correct <- exp_0big + exp_lit1
   
   #name the cols
-  namey <- apply(data_summary[, 1:3], 1, paste, collapse = "-")
+  namey <- apply(data_summary[, 1:3], 1, paste, collapse = "_")
   colnames(exp_correct) <- namey
   
   return(exp_correct)
@@ -186,8 +186,6 @@ design_with_defaults <- function(data_summary, data, sig_groups = sig_groups){
   
    #collect the macro names to make sure everything is kept int he right order
   data_names_order <- apply(data[,1:3], 1, paste, collapse = "_")
-write.table(data_names_order, "names")
-
 #transform the 0/1's to p20/p80's
   #exp_0big <- sweep(exp_01, 2, data_summary$p80, "*")
   #exp_lit1 <- sweep(abs(exp_01 - 1), 2, data_summary$p20, "*")
@@ -196,26 +194,39 @@ exp_correct <- exp_01
 
 
   #name the cols
-  namey <- apply(data_summary[,3:5], 1, paste, collapse = "_")
+  namey <- apply(data_summary[,1:3], 1, paste, collapse = "_")
   colnames(exp_correct) <- namey
-  
+
   d <- dim(exp_correct)[1]
 
   useless_groups <- subset(data, !data$Group %in% sig_groups)
   
   x <- dim(useless_groups)[1]
-  y <- dim(exp_correct)[1]
+ # y <- dim(exp_correct)[1]
+  y <- d
   J_1 <- matrix(rep(0, x * y), nrow = y, ncol = x)
   def <- useless_groups$Default
   defin <- t(t(J_1) * def)
   other_namey <- apply(useless_groups[,1:3], 1, paste, collapse = "_")
   colnames(defin) <- other_namey
   
-  
-  expment <- data.frame(exp_correct, defin)
-  expment <- expment[,data_names_order]
-  
-write.table(expment, "practice")
+  expment <- cbind(exp_correct, defin)
+j <- names(expment)
+k <- names(exp_correct)
+l <- data_names_order
+
+
+
+
+
+m <- c(j,k,l)
+write.table(m, "whats_in_a_name")
+
+
+
+
+cat(names(expment))
+expment <- expment[,data_names_order]
 
 return(expment)
 }
@@ -239,7 +250,7 @@ grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractiona
   design_matrix <- exper[[2]]
   
 
-
+write.table(data, "initial_data")
   final[[2]] <- data
   final[[3]] <- data
   final[[4]] <- data
@@ -265,7 +276,6 @@ grouping_wrapper <- function(data, num_of_groups = 10, new_groups = 6, fractiona
     if(length(data) == 0){data <- c("No Sig. Effects")}
    
     final[[1]] <- data
-   if(length(final) != 4){cat(parse(deparse(substitute(data))), "found the dirty whore!")}
    holding <- NULL
     if(length(data) == 0){data <- "No Sig. Effects"}
     
@@ -362,7 +372,6 @@ Lenth <- function(response, design_matrix, data, new_groups = 6) {
 
 
 
-
 grouping_it <- function(data, sig_groups = NULL, num_of_groups = 10){
   if(length(sig_groups) == 0) {
     sig_groups <- 1:max(data$Group)
@@ -373,7 +382,7 @@ grouping_it <- function(data, sig_groups = NULL, num_of_groups = 10){
   
   
   exp_data <- make_groups(group_size = num_of_groups, data = new_groupss) 
-  design_matrix <- design_with_defaults(data_summary = exp_data, data = data, sig_groups = j) 
+  design_matrix <- design_with_defaults(data_summary = exp_data, data = data, sig_groups = sig_groups) 
   
   new_groupss <- list(exp_data, design_matrix)
   
@@ -404,8 +413,8 @@ choosey <- function(sig, new_groups){
   m <- map(l, length)
   n <- which(m < new_groups)
   ifelse(length(n) == 0, o <- l[1], o <- l[n])
-  p <- map(o, function(x) x[-1])
-  q <- unique(unlist(p))
+  q <- unique(unlist(o))
+  ifelse(length(q) >= new_groups, q <- sample(q, new_groups), q <- q)
   return(q)
 }
 
